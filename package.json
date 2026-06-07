@@ -1,0 +1,65 @@
+{
+  "name": "growth-agent-mcp",
+  "version": "0.1.0",
+  "description": "Growth Prophet's growth-agent MCP server — turns any MCP client into a growth marketing agent. Bundles 150+ proprietary growth/ASO/SEO/CRO/paid-ads/PMF playbooks (served on demand) plus deterministic growth calculators (unit economics, ASO scoring, A/B test planning, DAU projection).",
+  "type": "module",
+  "bin": {
+    "growth-agent-mcp": "./dist/index.js",
+    "growth-agent-mcp-http": "./dist/http.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist",
+    "data",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "sync": "node scripts/sync-playbooks.mjs",
+    "build": "tsc && chmod +x dist/index.js dist/http.js",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "start:http": "node dist/http.js",
+    "smoke": "node scripts/smoke.mjs",
+    "smoke:http": "node scripts/smoke-http.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "growth",
+    "growth-marketing",
+    "aso",
+    "seo",
+    "cro",
+    "paid-ads",
+    "product-market-fit",
+    "growth-prophet"
+  ],
+  "author": "Growth Prophet",
+  "license": "MIT",
+  "homepage": "https://github.com/growthprophet/growth-agent-mcp#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/growthprophet/growth-agent-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/growthprophet/growth-agent-mcp/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.6.3"
+  }
+}

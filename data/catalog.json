@@ -1,0 +1,1415 @@
+[
+  {
+    "id": "ads",
+    "title": "Ads — Multi-Platform Paid Advertising Audit & Optimization",
+    "group": "ads",
+    "skill": "ads",
+    "source": "SKILL.md",
+    "snippet": "Comprehensive paid advertising audit and optimization for any business type. Performs full multi-platform audits (Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, Microsoft Ads), single-platform deep analysis, conversion tracking health checks, creative quality assessment, budget allocation optimization, bidding strategy evaluation, and compliance verification. Industry detection for SaaS, e-commerce, local service, B2B enterprise, info products, mobile app, real estate, healthcare, finance, and agency. Triggers on: ads, PPC, paid advertising, Google Ads, Meta Ads, Facebook Ads, LinkedIn Ads, TikTok Ads, Microsoft Ads, Bing Ads, ad audit, campaign audit, ROAS, conversion tracking, creative fatigue, bid strategy, brand DNA, generate ads, create campaign, product photography, ad creative generation.",
+    "keywords": "ads multi platform paid advertising audit optimization comprehensive and for any business type performs full audits google meta linkedin tiktok microsoft single deep analysis conversion tracking health checks creative quality assessment budget allocation bidding strategy evaluation compliance verification industry detection saas commerce local service b2b enterprise info products mobile app real estate healthcare finance agency triggers ppc facebook bing campaign roas fatigue bid brand dna generate create product photography generation"
+  },
+  {
+    "id": "ads-apple",
+    "title": "Apple Search Ads (ASA) Deep Analysis",
+    "group": "ads",
+    "skill": "ads-apple",
+    "source": "SKILL.md",
+    "snippet": ">",
+    "keywords": "ads apple search asa deep analysis"
+  },
+  {
+    "id": "ads-audit",
+    "title": "Full Multi-Platform Ads Audit",
+    "group": "ads",
+    "skill": "ads-audit",
+    "source": "SKILL.md",
+    "snippet": ">",
+    "keywords": "ads audit full multi platform"
+  },
+  {
+    "id": "ads-benchmarks",
+    "title": "Industry Benchmarks 2026",
+    "group": "ads",
+    "skill": "ads",
+    "source": "references/benchmarks.md",
+    "snippet": "Industry Benchmarks 2026 <!-- Updated: 2026-02-10 --> <!-- Sources: Claude Research (WordStream/LocaliQ 16K campaigns, Triple Whale 2025), Gemini Research --> Google Ads — Search Benchmarks All Industries Average (WordStream/LocaliQ 2025, 16K campaigns) | Metric | Average | YoY Change | |--------|---------|------------…",
+    "keywords": "ads benchmarks industry 2026"
+  },
+  {
+    "id": "ads-bidding-strategies",
+    "title": "Bidding Strategy Decision Trees",
+    "group": "ads",
+    "skill": "ads",
+    "source": "references/bidding-strategies.md",
+    "snippet": "Bidding Strategy Decision Trees <!-- Updated: 2026-02-10 --> <!-- Sources: Google Research PDF 2, Claude Research, Gemini Research --> Google Ads Bidding Decision Engine Strategy Selection Flow ``` START → How many conversions in last 30 days? ┌─ < 15 conversions ──────────────────────────┐ │ → Maximize Clicks (cold st…",
+    "keywords": "ads bidding strategies strategy decision trees"
+  },
+  {
+    "id": "ads-brand-dna-template",
+    "title": "Brand DNA Template",
+    "group": "ads",
+    "skill": "ads",
+    "source": "references/brand-dna-template.md",
+    "snippet": "Brand DNA Template <!-- Updated: 2026-03-12 --> <!-- Used by: ads-dna (extraction), ads-create (consumption), ads-generate (style injection) --> Purpose Defines the canonical schema for `brand-profile.json`. All agents that produce or consume brand data must use these exact field names and value types. --- JSON Schema…",
+    "keywords": "ads brand dna template"
+  },
+  {
+    "id": "ads-budget",
+    "title": "Budget Allocation & Bidding Strategy",
+    "group": "ads",
+    "skill": "ads-budget",
+    "source": "SKILL.md",
+    "snippet": ">",
+    "keywords": "ads budget allocation bidding strategy"
+  },
+  {
+    "id": "ads-budget-allocation",
+    "title": "Budget Allocation & Scaling Framework",
+    "group": "ads",
+    "skill": "ads",
+    "source": "references/budget-allocation.md",
+    "snippet": "Budget Allocation & Scaling Framework <!-- Updated: 2026-02-10 --> <!-- Sources: Google Research PDF 2, Claude Research, Gemini Research --> Platform Selection Matrix by Business Type | Business Type | Platform 1 | Platform 2 | Platform 3 | Other | Min Monthly | Primary KPI | Time to Profit | |--------------|----------…",
+    "keywords": "ads budget allocation scaling framework"
+  },
+  {
+    "id": "ads-competitor",
+    "title": "Competitor Ad Intelligence",
+    "group": "ads",
+    "skill": "ads-competitor",
+    "source": "SKILL.md",
+    "snippet": ">",
+    "keywords": "ads competitor intelligence"
+  },
+  {
+    "id": "ads-compliance",
+    "title": "Advertising Compliance & Privacy Reference",
+    "group": "ads",
+    "skill": "ads",
+    "source": "references/compliance.md",
+    "snippet": "Advertising Compliance & Privacy Reference <!-- Updated: 2026-02-10 --> <!-- Sources: Claude Research, Gemini Research --> Google Ads Policies Enforcement System: Three-Strike Policy | Strike | Consequence | Duration | |--------|------------|----------| | Strike 1 | 90-day probation | Warning period | | Strike 2 | 90-d…",
+    "keywords": "ads compliance advertising privacy reference"
+  },
+  {
+    "id": "ads-conversion-tracking",
+    "title": "Conversion Tracking Setup & Requirements",
+    "group": "ads",
+    "skill": "ads",
+    "source": "references/conversion-tracking.md",
+    "snippet": "Conversion Tracking Setup & Requirements <!-- Updated: 2026-02-10 --> <!-- Sources: Google Research PDF 2, Claude Research, Gemini Research --> Google Ads Conversion Tracking Required Stack ``` 1. Global Site Tag (gtag.js) → all pages 2. Enhanced Conversions → hashed first-party data (email, phone, address, name) 3. Co…",
+    "keywords": "ads conversion tracking setup requirements"
+  },
+  {
+    "id": "ads-create",
+    "title": "Ads Create — Campaign Concept & Copy Brief Generator",
+    "group": "ads",
+    "skill": "ads-create",
+    "source": "SKILL.md",
+    "snippet": ">",
+    "keywords": "ads create campaign concept copy brief generator"
+  },
+  {
+    "id": "ads-creative",
+    "title": "Cross-Platform Creative Quality Audit",
+    "group": "ads",
+    "skill": "ads-creative",
+    "source": "SKILL.md",
+    "snippet": ">",
+    "keywords": "ads creative cross platform quality audit"
+  },
+  {
+    "id": "ads-dna",
+    "title": "Ads DNA — Brand DNA Extractor",
+    "group": "ads",
+    "skill": "ads-dna",
+    "source": "SKILL.md",
+    "snippet": ">",
+    "keywords": "ads dna brand extractor"
+  },
+  {
+    "id": "ads-generate",
+    "title": "Ads Generate — AI Ad Image Generator",
+    "group": "ads",
+    "skill": "ads-generate",
+    "source": "SKILL.md",
+    "snippet": ">",
+    "keywords": "ads generate image generator"
+  },
+  {
+    "id": "ads-google",
+    "title": "Google Ads Deep Analysis",
+    "group": "ads",
+    "skill": "ads-google",
+    "source": "SKILL.md",
+    "snippet": ">",
+    "keywords": "ads google deep analysis"
+  },
+  {
+    "id": "ads-google-audit",
+    "title": "Google Ads Audit Checklist",
+    "group": "ads",
+    "skill": "ads",
+    "source": "references/google-audit.md",
+    "snippet": "Google Ads Audit Checklist <!-- Updated: 2026-02-11 --> <!-- Sources: Google Research PDF 1 (G01-G61), Claude Research (74-item extended), Gemini Research --> <!-- Total Checks: 74 | Categories: 7 | See scoring-system.md for weights and algorithm --> Quick Reference | Category | Weight | Check Count | |----------|-----…",
+    "keywords": "ads google audit checklist"
+  },
+  {
+    "id": "ads-google-creative-specs",
+    "title": "Google Creative Specs — Generation Guide",
+    "group": "ads",
+    "skill": "ads",
+    "source": "references/google-creative-specs.md",
+    "snippet": "Google Creative Specs — Generation Guide <!-- Updated: 2026-03-12 --> <!-- Source: platform-specs.md + Google Ads asset requirements --> <!-- Used by: ads-generate, visual-designer agent --> Purpose Generation-ready specifications for Google Ads creative assets. Use these when constructing image prompts for PMax asset…",
+    "keywords": "ads google creative specs generation guide"
+  },
+  {
+    "id": "ads-image-providers",
+    "title": "Image Generation Providers",
+    "group": "ads",
+    "skill": "ads",
+    "source": "references/image-providers.md",
+    "snippet": "Image Generation Providers <!-- Updated: 2026-03-12 --> <!-- Used by: ads-generate, ads-photoshoot, generate_image.py --> Provider Overview | Provider | Env Var | Default Model | Package | |----------|---------|---------------|---------| | `gemini` (default) | `GOOGLE_API_KEY` | `gemini-2.5-flash-image` | `google-genai…",
+    "keywords": "ads image providers generation"
+  },
+  {
+    "id": "ads-landing",
+    "title": "Landing Page Quality for Ad Campaigns",
+    "group": "ads",
+    "skill": "ads-landing",
+    "source": "SKILL.md",
+    "snippet": ">",
+    "keywords": "ads landing page quality for campaigns"
+  },
+  {
+    "id": "ads-linkedin",
+    "title": "LinkedIn Ads Deep Analysis",
+    "group": "ads",
+    "skill": "ads-linkedin",
+    "source": "SKILL.md",
+    "snippet": ">",
+    "keywords": "ads linkedin deep analysis"
+  },
+  {
+    "id": "ads-linkedin-audit",
+    "title": "LinkedIn Ads Audit Checklist",
+    "group": "ads",
+    "skill": "ads",
+    "source": "references/linkedin-audit.md",
+    "snippet": "LinkedIn Ads Audit Checklist <!-- Updated: 2026-02-11 --> <!-- Sources: Google Research PDF 1 (L01-L25), Claude Research, Gemini Research --> <!-- Total Checks: 25 | Categories: 5 | See scoring-system.md for weights and algorithm --> Quick Reference | Category | Weight | Check Count | |----------|--------|-------------…",
+    "keywords": "ads linkedin audit checklist"
+  },
+  {
+    "id": "ads-linkedin-creative-specs",
+    "title": "LinkedIn Creative Specs — Generation Guide",
+    "group": "ads",
+    "skill": "ads",
+    "source": "references/linkedin-creative-specs.md",
+    "snippet": "LinkedIn Creative Specs — Generation Guide <!-- Updated: 2026-03-12 --> <!-- Source: platform-specs.md + LinkedIn Campaign Manager requirements --> <!-- Used by: ads-generate, visual-designer agent --> Purpose Generation-ready specifications for LinkedIn ad creative. LinkedIn is a professional platform — tone, imagery…",
+    "keywords": "ads linkedin creative specs generation guide"
+  },
+  {
+    "id": "ads-meta",
+    "title": "Meta Ads Deep Analysis",
+    "group": "ads",
+    "skill": "ads-meta",
+    "source": "SKILL.md",
+    "snippet": ">",
+    "keywords": "ads meta deep analysis"
+  },
+  {
+    "id": "ads-meta-audit",
+    "title": "Meta Ads Audit Checklist",
+    "group": "ads",
+    "skill": "ads",
+    "source": "references/meta-audit.md",
+    "snippet": "Meta Ads Audit Checklist <!-- Updated: 2026-02-11 --> <!-- Sources: Google Research PDF 1 (M01-M40), Claude Research (42-item extended), Gemini Research --> <!-- Total Checks: 46 | Categories: 4 | See scoring-system.md for weights and algorithm --> Quick Reference | Category | Weight | Check Count | |----------|-------…",
+    "keywords": "ads meta audit checklist"
+  },
+  {
+    "id": "ads-meta-creative-specs",
+    "title": "Meta Creative Specs — Generation Guide",
+    "group": "ads",
+    "skill": "ads",
+    "source": "references/meta-creative-specs.md",
+    "snippet": "Meta Creative Specs — Generation Guide <!-- Updated: 2026-03-12 --> <!-- Source: platform-specs.md + Meta Ads Manager requirements --> <!-- Used by: ads-generate, visual-designer agent --> Purpose Generation-ready specifications for Meta (Facebook + Instagram) ad creative. Includes safe zone diagrams, copy limits, and…",
+    "keywords": "ads meta creative specs generation guide"
+  },
+  {
+    "id": "ads-microsoft",
+    "title": "Microsoft Ads Deep Analysis",
+    "group": "ads",
+    "skill": "ads-microsoft",
+    "source": "SKILL.md",
+    "snippet": ">",
+    "keywords": "ads microsoft deep analysis"
+  },
+  {
+    "id": "ads-microsoft-audit",
+    "title": "Microsoft Ads Audit Checklist",
+    "group": "ads",
+    "skill": "ads",
+    "source": "references/microsoft-audit.md",
+    "snippet": "Microsoft Ads Audit Checklist <!-- Updated: 2026-02-11 --> <!-- Sources: Google Research PDF 1 (MS01-MS20), Claude Research, Gemini Research --> <!-- Total Checks: 20 | Categories: 5 | See scoring-system.md for weights and algorithm --> Quick Reference | Category | Weight | Check Count | |----------|--------|----------…",
+    "keywords": "ads microsoft audit checklist"
+  },
+  {
+    "id": "ads-microsoft-creative-specs",
+    "title": "Microsoft Creative Specs — Generation Guide",
+    "group": "ads",
+    "skill": "ads",
+    "source": "references/microsoft-creative-specs.md",
+    "snippet": "Microsoft Creative Specs — Generation Guide <!-- Updated: 2026-03-12 --> <!-- Source: platform-specs.md + Microsoft Advertising requirements --> <!-- Used by: ads-generate, visual-designer agent --> Purpose Generation-ready specifications for Microsoft (Bing) Ads creative. Microsoft creative is largely a subset of Goog…",
+    "keywords": "ads microsoft creative specs generation guide"
+  },
+  {
+    "id": "ads-photoshoot",
+    "title": "Ads Photoshoot — AI Product Photography",
+    "group": "ads",
+    "skill": "ads-photoshoot",
+    "source": "SKILL.md",
+    "snippet": ">",
+    "keywords": "ads photoshoot product photography"
+  },
+  {
+    "id": "ads-plan",
+    "title": "Strategic Paid Advertising Plan",
+    "group": "ads",
+    "skill": "ads-plan",
+    "source": "SKILL.md",
+    "snippet": ">",
+    "keywords": "ads plan strategic paid advertising"
+  },
+  {
+    "id": "ads-plan-assets-agency",
+    "title": "Marketing Agency Paid Advertising Template",
+    "group": "ads",
+    "skill": "ads-plan",
+    "source": "assets/agency.md",
+    "snippet": "<!-- Updated: 2026-02-11 --> Marketing Agency Paid Advertising Template Industry Characteristics - Multi-client management — each client has different goals, budgets, and industries - White-label reporting and branding requirements - Standardized processes needed for scalable delivery - Client retention depends on meas…",
+    "keywords": "ads plan assets agency marketing paid advertising template"
+  },
+  {
+    "id": "ads-plan-assets-b2b-enterprise",
+    "title": "B2B Enterprise Paid Advertising Template",
+    "group": "ads",
+    "skill": "ads-plan",
+    "source": "assets/b2b-enterprise.md",
+    "snippet": "<!-- Updated: 2026-02-11 --> B2B Enterprise Paid Advertising Template Industry Characteristics - Long sales cycles (3-12+ months) - Multiple decision makers per deal (6-10 stakeholders average) - High deal values justify very high CPA ($200-$1,000+) - Account-based marketing (ABM) is the dominant strategy - Content con…",
+    "keywords": "ads plan assets b2b enterprise paid advertising template"
+  },
+  {
+    "id": "ads-plan-assets-ecommerce",
+    "title": "E-commerce Paid Advertising Template",
+    "group": "ads",
+    "skill": "ads-plan",
+    "source": "assets/ecommerce.md",
+    "snippet": "<!-- Updated: 2026-02-11 --> E-commerce Paid Advertising Template Industry Characteristics - Transaction-focused with short purchase cycles - ROAS is the primary success metric - Product catalog/feed drives Shopping and PMax performance - Seasonal demand patterns (Q4 holiday, back-to-school, etc.) - High creative volum…",
+    "keywords": "ads plan assets ecommerce commerce paid advertising template"
+  },
+  {
+    "id": "ads-plan-assets-finance",
+    "title": "Financial Services Paid Advertising Template",
+    "group": "ads",
+    "skill": "ads-plan",
+    "source": "assets/finance.md",
+    "snippet": "<!-- Updated: 2026-02-11 --> Financial Services Paid Advertising Template Industry Characteristics - **Special Ad Category**: credit, lending, and insurance ads have targeting restrictions - Heavy regulatory compliance (FINRA, SEC, state regulations, UDAAP) - Trust and credibility are essential — consumers are risk-ave…",
+    "keywords": "ads plan assets finance financial services paid advertising template"
+  },
+  {
+    "id": "ads-plan-assets-generic",
+    "title": "Generic Paid Advertising Template",
+    "group": "ads",
+    "skill": "ads-plan",
+    "source": "assets/generic.md",
+    "snippet": "<!-- Updated: 2026-02-11 --> Generic Paid Advertising Template Overview This template applies to businesses that don't fit neatly into SaaS, e-commerce, local service, B2B enterprise, info products, mobile app, real estate, healthcare, finance, or agency categories. Customize based on your specific business model, goal…",
+    "keywords": "ads plan assets generic paid advertising template"
+  },
+  {
+    "id": "ads-plan-assets-healthcare",
+    "title": "Healthcare Paid Advertising Template",
+    "group": "ads",
+    "skill": "ads-plan",
+    "source": "assets/healthcare.md",
+    "snippet": "<!-- Updated: 2026-02-11 --> Healthcare Paid Advertising Template Industry Characteristics - **HIPAA compliance** governs all marketing involving patient data - Restricted ad policies on all major platforms (health conditions, treatments) - LegitScript certification required for addiction treatment and pharmacy ads - T…",
+    "keywords": "ads plan assets healthcare paid advertising template"
+  },
+  {
+    "id": "ads-plan-assets-info-products",
+    "title": "Info Products & Courses Paid Advertising Template",
+    "group": "ads",
+    "skill": "ads-plan",
+    "source": "assets/info-products.md",
+    "snippet": "<!-- Updated: 2026-02-11 --> Info Products & Courses Paid Advertising Template Industry Characteristics - Impulse-buy potential for low-ticket ($7-$97) products - Webinar/VSL funnels dominate for high-ticket ($500-$5,000+) - Creator/founder personal brand is the biggest asset - Emotional decision making — transformatio…",
+    "keywords": "ads plan assets info products courses paid advertising template"
+  },
+  {
+    "id": "ads-plan-assets-local-service",
+    "title": "Local Service Business Paid Advertising Template",
+    "group": "ads",
+    "skill": "ads-plan",
+    "source": "assets/local-service.md",
+    "snippet": "<!-- Updated: 2026-02-11 --> Local Service Business Paid Advertising Template Industry Characteristics - Geographic-focused with tight radius targeting (5-30 miles) - Phone calls are the primary conversion (60%+ of leads) - High intent — emergency/urgent service needs drive immediate action - Reviews and trust signals…",
+    "keywords": "ads plan assets local service business paid advertising template"
+  },
+  {
+    "id": "ads-plan-assets-mobile-app",
+    "title": "Mobile App Paid Advertising Template",
+    "group": "ads",
+    "skill": "ads-plan",
+    "source": "assets/mobile-app.md",
+    "snippet": "<!-- Updated: 2026-02-11 --> Mobile App Paid Advertising Template Industry Characteristics - App install is the primary conversion event - Post-install events (registration, purchase, subscription) determine true value - LTV (lifetime value) optimization is critical — not all installs are equal - App store optimization…",
+    "keywords": "ads plan assets mobile app paid advertising template"
+  },
+  {
+    "id": "ads-plan-assets-real-estate",
+    "title": "Real Estate Paid Advertising Template",
+    "group": "ads",
+    "skill": "ads-plan",
+    "source": "assets/real-estate.md",
+    "snippet": "<!-- Updated: 2026-02-11 --> Real Estate Paid Advertising Template Industry Characteristics - **Special Ad Category**: housing ads require Fair Housing compliance (Meta, Google) - Geographic hyper-targeting essential (neighborhoods, ZIP codes, school districts) - Visual-first — high-quality property photos and video to…",
+    "keywords": "ads plan assets real estate paid advertising template"
+  },
+  {
+    "id": "ads-plan-assets-saas",
+    "title": "SaaS Paid Advertising Template",
+    "group": "ads",
+    "skill": "ads-plan",
+    "source": "assets/saas.md",
+    "snippet": "<!-- Updated: 2026-02-11 --> SaaS Paid Advertising Template Industry Characteristics - Long sales cycles with multiple touchpoints (30-90+ days) - Free trial or demo request as primary conversion event - High customer lifetime value justifies high CPA ($100-$200+) - Heavy comparison shopping — competitor keyword biddin…",
+    "keywords": "ads plan assets saas paid advertising template"
+  },
+  {
+    "id": "ads-platform-specs",
+    "title": "Platform Creative Specifications",
+    "group": "ads",
+    "skill": "ads",
+    "source": "references/platform-specs.md",
+    "snippet": "Platform Creative Specifications <!-- Updated: 2026-02-10 --> <!-- Sources: Google Research PDF 3, Claude Research --> Google Ads Responsive Search Ads (RSA) | Component | Min | Max | Char Limit | |-----------|-----|-----|------------| | Headlines | 3 | 15 | 30 chars each | | Descriptions | 2 | 4 | 90 chars each | | Di…",
+    "keywords": "ads platform specs creative specifications"
+  },
+  {
+    "id": "ads-research-sources-claude-research",
+    "title": "Claude Deep Research — The Definitive Paid Advertising Reference for 2026",
+    "group": "ads",
+    "skill": "ads",
+    "source": "research-sources/claude-research.md",
+    "snippet": "Claude Deep Research — The Definitive Paid Advertising Reference for 2026 > Source: Claude Deep Research, February 2026 > Original: ~/Documents/Ads Documentation & Research/ > 492 lines — Most comprehensive and up-to-date source Key Unique Data Points (Not in Other Sources) Google Ads - Average Search CPC now $5.26 (up…",
+    "keywords": "ads research sources claude deep the definitive paid advertising reference for 2026"
+  },
+  {
+    "id": "ads-research-sources-gemini-research",
+    "title": "Gemini Deep Research — The State of Paid Advertising 2026",
+    "group": "ads",
+    "skill": "ads",
+    "source": "research-sources/gemini-research.md",
+    "snippet": "Gemini Deep Research — The State of Paid Advertising 2026 > Source: Gemini Deep Research, February 2026 > Original file: `~/Downloads/the state of paid advertising 2026.txt` > 344 lines, 36 cited sources Executive Summary The 2026 advertising ecosystem operates under a **signal-based paradigm** — transition from keywor…",
+    "keywords": "ads research sources gemini deep the state paid advertising 2026"
+  },
+  {
+    "id": "ads-research-sources-google-audit-checklists",
+    "title": "Google Deep Research 1 — Ad Audit Checklists & Scoring System",
+    "group": "ads",
+    "skill": "ads",
+    "source": "research-sources/google-audit-checklists.md",
+    "snippet": "Google Deep Research 1 — Ad Audit Checklists & Scoring System > Source: Google Deep Research PDF, \"Ad Audit Checklist & Scoring System\", February 2026 > 29 pages — Complete audit checklists for 5 platforms with weighted scoring methodology --- Executive Summary: Deterministic Auditing The 2026 paradigm shift demands **…",
+    "keywords": "ads research sources google audit checklists deep scoring system"
+  },
+  {
+    "id": "ads-research-sources-google-optimization-logic",
+    "title": "Google Deep Research 2 — Ad Optimization Tool Logic",
+    "group": "ads",
+    "skill": "ads",
+    "source": "research-sources/google-optimization-logic.md",
+    "snippet": "Google Deep Research 2 — Ad Optimization Tool Logic > Source: Google Deep Research PDF, \"Ad Optimization Tool Logic Request\", February 2026 > 18 pages — Bidding decision engines, budget allocation frameworks, conversion tracking, attribution --- Google Ads Bidding Decision Engine Strategy Selection Decision Tree ``` IF…",
+    "keywords": "ads research sources google optimization logic deep tool"
+  },
+  {
+    "id": "ads-research-sources-google-platform-specs",
+    "title": "Google Deep Research 3 — Paid Ad Technical Specifications",
+    "group": "ads",
+    "skill": "ads",
+    "source": "research-sources/google-platform-specs.md",
+    "snippet": "Google Deep Research 3 — Paid Ad Technical Specifications > Source: Google Deep Research PDF, \"Paid Ad Technical Specifications Request\", February 2026 > 20 pages — Complete creative specs, safe zones, character limits, encoding requirements --- Google Ads Specifications Responsive Search Ads (RSA) | Component | Limit…",
+    "keywords": "ads research sources google platform specs deep paid technical specifications"
+  },
+  {
+    "id": "ads-research-sources-readme",
+    "title": "Research Sources — claude-ads",
+    "group": "ads",
+    "skill": "ads",
+    "source": "research-sources/README.md",
+    "snippet": "Research Sources — claude-ads Raw processed research documents used to build the claude-ads reference database. These preserve the full context from each research source for future reference. Sources | File | Source | Date | Pages/Words | |------|--------|------|-------------| | `gemini-research.md` | Gemini Deep Resea…",
+    "keywords": "ads research sources readme claude"
+  },
+  {
+    "id": "ads-scoring-system",
+    "title": "Ad Account Audit Scoring System",
+    "group": "ads",
+    "skill": "ads",
+    "source": "references/scoring-system.md",
+    "snippet": "Ad Account Audit Scoring System <!-- Updated: 2026-02-10 --> <!-- Sources: Google Research PDF 1, Claude Research, Gemini Research --> Weighted Scoring Algorithm ``` S_total = Σ(C_pass × W_sev × W_cat) / Σ(C_total × W_sev × W_cat) × 100 ``` - `C_pass` = check passed (1) or failed (0); WARNING = 0.5 - `W_sev` = severity…",
+    "keywords": "ads scoring system account audit"
+  },
+  {
+    "id": "ads-tiktok",
+    "title": "TikTok Ads Deep Analysis",
+    "group": "ads",
+    "skill": "ads-tiktok",
+    "source": "SKILL.md",
+    "snippet": ">",
+    "keywords": "ads tiktok deep analysis"
+  },
+  {
+    "id": "ads-tiktok-audit",
+    "title": "TikTok Ads Audit Checklist",
+    "group": "ads",
+    "skill": "ads",
+    "source": "references/tiktok-audit.md",
+    "snippet": "TikTok Ads Audit Checklist <!-- Updated: 2026-02-11 --> <!-- Sources: Google Research PDF 1 (T01-T25), Claude Research, Gemini Research --> <!-- Total Checks: 25 | Categories: 5 | See scoring-system.md for weights and algorithm --> Quick Reference | Category | Weight | Check Count | |----------|--------|-------------|…",
+    "keywords": "ads tiktok audit checklist"
+  },
+  {
+    "id": "ads-tiktok-creative-specs",
+    "title": "TikTok Creative Specs — Generation Guide",
+    "group": "ads",
+    "skill": "ads",
+    "source": "references/tiktok-creative-specs.md",
+    "snippet": "TikTok Creative Specs — Generation Guide <!-- Updated: 2026-03-12 --> <!-- Source: platform-specs.md + TikTok Ads Manager requirements --> <!-- Used by: ads-generate, visual-designer agent --> Purpose Generation-ready specifications for TikTok ad creative. TikTok is vertical-only and sound-on. Horizontal or square crea…",
+    "keywords": "ads tiktok creative specs generation guide"
+  },
+  {
+    "id": "ads-youtube",
+    "title": "YouTube Ads Analysis",
+    "group": "ads",
+    "skill": "ads-youtube",
+    "source": "SKILL.md",
+    "snippet": ">",
+    "keywords": "ads youtube analysis"
+  },
+  {
+    "id": "ads-youtube-creative-specs",
+    "title": "YouTube Creative Specs — Generation Guide",
+    "group": "ads",
+    "skill": "ads",
+    "source": "references/youtube-creative-specs.md",
+    "snippet": "YouTube Creative Specs — Generation Guide <!-- Updated: 2026-03-12 --> <!-- Source: platform-specs.md + Google Ads YouTube requirements --> <!-- Used by: ads-generate, visual-designer agent --> Purpose Generation-ready specifications for YouTube ad creative. Note: full video generation requires a video production workf…",
+    "keywords": "ads youtube creative specs generation guide"
+  },
+  {
+    "id": "growth-marketing",
+    "title": "Growth Marketing Toolkit",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "SKILL.md",
+    "snippet": "Unified growth marketing toolkit covering ASO (App Store Optimization), Apple Search Ads, SEO, CRO, paid ads, content strategy, email marketing, launch planning, pricing, analytics, and 25+ more marketing disciplines. Use when the user mentions ANY marketing task: 'ASO,' 'keywords,' 'app store,' 'SEO,' 'CRO,' 'conversion,' 'landing page,' 'copywriting,' 'email sequence,' 'paid ads,' 'Google Ads,' 'Meta ads,' 'launch,' 'pricing,' 'referral,' 'churn,' 'analytics,' 'A/B test,' 'cold email,' 'social media,' 'content strategy,' 'schema markup,' 'programmatic SEO,' 'lead magnet,' 'onboarding,' 'popup,' 'paywall,' 'upgrade,' 'sales enablement,' 'competitor analysis,' 'marketing ideas,' 'psychology,' 'RevOps,' 'Apple Search Ads,' 'ad creative,' 'site architecture,' or any growth/marketing related request.",
+    "keywords": "growth marketing toolkit unified covering aso app store optimization apple search ads seo cro paid content strategy email launch planning pricing analytics and more disciplines use when the user mentions any task keywords conversion landing page copywriting sequence google meta referral churn test cold social media schema markup programmatic lead magnet onboarding popup paywall upgrade sales enablement competitor analysis ideas psychology revops creative site architecture related request"
+  },
+  {
+    "id": "growth-marketing-ab-test-setup",
+    "title": "A/B Test Setup",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/ab-test-setup.md",
+    "snippet": "When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" \"hypothesis,\" \"should I test this,\" \"which version is better,\" \"test two versions,\" \"statistical significance,\" or \"how long should I run this test.\" Use this whenever someone is comparing two approaches and wants to measure which performs better. For tracking implementation, see analytics-tracking. For page-level conversion optimization, see page-cro.",
+    "keywords": "growth marketing test setup when the user wants plan design implement experiment also use mentions split this change variant copy multivariate hypothesis should which version better two versions statistical significance how long run whenever someone comparing approaches and measure performs for tracking implementation see analytics page level conversion optimization cro"
+  },
+  {
+    "id": "growth-marketing-ab-test-setup-sample-size-guide",
+    "title": "Sample Size Guide",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/ab-test-setup-sample-size-guide.md",
+    "snippet": "Sample Size Guide Reference for calculating sample sizes and test duration. Contents - Sample Size Fundamentals (required inputs, what these mean) - Sample Size Quick Reference Tables - Duration Calculator (formula, examples, minimum duration rules, maximum duration guidelines) - Online Calculators - Adjusting for Mult…",
+    "keywords": "growth marketing test setup sample size guide"
+  },
+  {
+    "id": "growth-marketing-ab-test-setup-test-templates",
+    "title": "A/B Test Templates Reference",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/ab-test-setup-test-templates.md",
+    "snippet": "A/B Test Templates Reference Templates for planning, documenting, and analyzing experiments. Contents - Test Plan Template - Results Documentation Template - Test Repository Entry Template - Quick Test Brief Template - Stakeholder Update Template - Experiment Prioritization Scorecard - Hypothesis Bank Template Test Pla…",
+    "keywords": "growth marketing test setup templates reference"
+  },
+  {
+    "id": "growth-marketing-ad-creative",
+    "title": "Ad Creative",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/ad-creative.md",
+    "snippet": "When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform. Also use when the user mentions 'ad copy variations,' 'ad creative,' 'generate headlines,' 'RSA headlines,' 'bulk ad copy,' 'ad iterations,' 'creative testing,' 'ad performance optimization,' 'write me some ads,' 'Facebook ad copy,' 'Google ad headlines,' 'LinkedIn ad text,' or 'I need more ad variations.' Use this whenever someone needs to produce ad copy at scale or iterate on existing ads. For campaign strategy and targeting, see paid-ads. For landing page copy, see copywriting.",
+    "keywords": "growth marketing creative when the user wants generate iterate scale headlines descriptions primary text full variations for any paid advertising platform also use mentions copy rsa bulk iterations testing performance optimization write some ads facebook google linkedin need more this whenever someone needs produce existing campaign strategy and targeting see landing page copywriting"
+  },
+  {
+    "id": "growth-marketing-ad-creative-generative-tools",
+    "title": "Generative AI Tools for Ad Creative",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/ad-creative-generative-tools.md",
+    "snippet": "Generative AI Tools for Ad Creative Reference for using AI image generators, video generators, and code-based video tools to produce ad visuals at scale. --- When to Use Generative Tools | Need | Tool Category | Best Fit | |------|---------------|----------| | Static ad images (banners, social) | Image generation | Nan…",
+    "keywords": "growth marketing creative generative tools for"
+  },
+  {
+    "id": "growth-marketing-ad-creative-platform-specs",
+    "title": "Platform Specs Reference",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/ad-creative-platform-specs.md",
+    "snippet": "Platform Specs Reference Complete character limits, format requirements, and best practices for each ad platform. --- Google Ads Responsive Search Ads (RSAs) | Element | Character Limit | Required | Notes | |---------|----------------|----------|-------| | Headline | 30 chars | 3 minimum, 15 max | Any 3 may be shown to…",
+    "keywords": "growth marketing creative platform specs reference"
+  },
+  {
+    "id": "growth-marketing-ai-seo",
+    "title": "AI SEO",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/ai-seo.md",
+    "snippet": "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click search,' 'how do I show up in AI answers,' 'LLM mentions,' or 'optimize for Claude/Gemini.' Use this whenever someone wants their content to be cited or surfaced by AI assistants and AI search engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema-markup.",
+    "keywords": "growth marketing seo when the user wants optimize content for search engines get cited llms appear generated answers also use mentions aeo geo llmo answer engine optimization generative llm overviews chatgpt perplexity citations visibility zero click how show claude gemini this whenever someone their surfaced assistants and traditional technical page audits see audit structured data implementation schema markup"
+  },
+  {
+    "id": "growth-marketing-ai-seo-content-patterns",
+    "title": "AEO and GEO Content Patterns",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/ai-seo-content-patterns.md",
+    "snippet": "AEO and GEO Content Patterns Reusable content block patterns optimized for answer engines and AI citation. --- Contents - Answer Engine Optimization (AEO) Patterns (Definition Block, Step-by-Step Block, Comparison Table Block, Pros and Cons Block, FAQ Block, Listicle Block) - Generative Engine Optimization (GEO) Patter…",
+    "keywords": "growth marketing seo content patterns aeo and geo"
+  },
+  {
+    "id": "growth-marketing-ai-seo-platform-ranking-factors",
+    "title": "How Each AI Platform Picks Sources",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/ai-seo-platform-ranking-factors.md",
+    "snippet": "How Each AI Platform Picks Sources Each AI search platform has its own search index, ranking logic, and content preferences. This guide covers what matters for getting cited on each one. Sources cited throughout: Princeton GEO study (KDD 2024), SE Ranking domain authority study, ZipTie content-answer fit analysis. ---…",
+    "keywords": "growth marketing seo platform ranking factors how each picks sources"
+  },
+  {
+    "id": "growth-marketing-analytics-tracking",
+    "title": "Analytics Tracking",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/analytics-tracking.md",
+    "snippet": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" \"tracking plan,\" \"how do I measure this,\" \"track conversions,\" \"attribution,\" \"Mixpanel,\" \"Segment,\" \"are my events firing,\" or \"analytics isn't working.\" Use this whenever someone asks how to know if something is working or wants to measure marketing results. For A/B test measurement, see ab-test-setup.",
+    "keywords": "growth marketing analytics tracking when the user wants set improve audit and measurement also use mentions ga4 google conversion event utm parameters tag manager gtm implementation plan how measure this track conversions attribution mixpanel segment are events firing isn working whenever someone asks know something results for test see setup"
+  },
+  {
+    "id": "growth-marketing-analytics-tracking-event-library",
+    "title": "Event Library Reference",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/analytics-tracking-event-library.md",
+    "snippet": "Event Library Reference Comprehensive list of events to track by business type and context. Contents - Marketing Site Events (navigation & engagement, CTA & form interactions, conversion events) - Product/App Events (onboarding, core usage, errors & support) - Monetization Events (pricing & checkout, subscription manag…",
+    "keywords": "growth marketing analytics tracking event library reference"
+  },
+  {
+    "id": "growth-marketing-analytics-tracking-ga4-implementation",
+    "title": "GA4 Implementation Reference",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/analytics-tracking-ga4-implementation.md",
+    "snippet": "GA4 Implementation Reference Detailed implementation guide for Google Analytics 4. Contents - Configuration (data streams, enhanced measurement events, recommended events) - Custom Events (gtag.js implementation, Google Tag Manager) - Conversions Setup (creating conversions, conversion values) - Custom Dimensions and M…",
+    "keywords": "growth marketing analytics tracking ga4 implementation reference"
+  },
+  {
+    "id": "growth-marketing-analytics-tracking-gtm-implementation",
+    "title": "Google Tag Manager Implementation Reference",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/analytics-tracking-gtm-implementation.md",
+    "snippet": "Google Tag Manager Implementation Reference Detailed guide for implementing tracking via Google Tag Manager. Contents - Container Structure (tags, triggers, variables) - Naming Conventions - Data Layer Patterns - Common Tag Configurations (GA4 configuration tag, GA4 event tag, Facebook pixel) - Preview and Debug - Work…",
+    "keywords": "growth marketing analytics tracking gtm implementation google tag manager reference"
+  },
+  {
+    "id": "growth-marketing-apple-search-ads",
+    "title": "Apple Search Ads Management",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/apple-search-ads.md",
+    "snippet": "Manage Apple Search Ads campaigns, keywords, and reporting. Use when setting up campaigns, adding keywords, checking performance, or optimizing Apple Search Ads for any iOS app. Implements Apple's recommended 4-campaign structure (Brand, Category, Competitor, Discovery).",
+    "keywords": "growth marketing apple search ads management manage campaigns keywords and reporting use when setting adding checking performance optimizing for any ios app implements recommended campaign structure brand category competitor discovery"
+  },
+  {
+    "id": "growth-marketing-aso",
+    "title": "App Store Optimization (ASO) Skill",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/aso.md",
+    "snippet": "Complete App Store Optimization (ASO) toolkit for researching, optimizing, and tracking mobile app performance on Apple App Store and Google Play Store",
+    "keywords": "growth marketing aso app store optimization skill complete toolkit for researching optimizing and tracking mobile performance apple google play"
+  },
+  {
+    "id": "growth-marketing-churn-prevention",
+    "title": "Churn Prevention",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/churn-prevention.md",
+    "snippet": "When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,' 'failed payment recovery,' 'win-back,' 'retention,' 'exit survey,' 'pause subscription,' 'involuntary churn,' 'people keep canceling,' 'churn rate is too high,' 'how do I keep users,' or 'customers are leaving.' Use this whenever someone is losing subscribers or wants to build systems to prevent it. For post-cancel win-back email sequences, see email-sequence. For in-app upgrade paywalls, see paywall-upgrade-cro.",
+    "keywords": "growth marketing churn prevention when the user wants reduce build cancellation flows set save offers recover failed payments implement retention strategies also use mentions cancel flow offboarding offer dunning payment recovery win back exit survey pause subscription involuntary people keep canceling rate too high how users customers are leaving this whenever someone losing subscribers systems prevent for post email sequences see sequence app upgrade paywalls paywall cro"
+  },
+  {
+    "id": "growth-marketing-churn-prevention-cancel-flow-patterns",
+    "title": "Cancel Flow Patterns",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/churn-prevention-cancel-flow-patterns.md",
+    "snippet": "Cancel Flow Patterns Detailed cancel flow patterns by business type, billing provider, and industry. --- Cancel Flow by Business Type B2C / Self-Serve SaaS High volume, low touch. The flow must work without human intervention. **Flow structure:** ``` Cancel button → Exit survey (1 question) → Dynamic offer → Confirm →…",
+    "keywords": "growth marketing churn prevention cancel flow patterns"
+  },
+  {
+    "id": "growth-marketing-churn-prevention-dunning-playbook",
+    "title": "Dunning Playbook",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/churn-prevention-dunning-playbook.md",
+    "snippet": "Dunning Playbook Complete guide to recovering failed payments and reducing involuntary churn. --- Why Dunning Matters - Failed payments cause 30-50% of all subscription churn - Most failed payments are recoverable with the right strategy - Subscription businesses lose an estimated $129 billion annually to involuntary c…",
+    "keywords": "growth marketing churn prevention dunning playbook"
+  },
+  {
+    "id": "growth-marketing-cold-email",
+    "title": "Cold Email Writing",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/cold-email.md",
+    "snippet": "Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails. Also use when the user mentions \"cold outreach,\" \"prospecting email,\" \"outbound email,\" \"email to leads,\" \"reach out to prospects,\" \"sales email,\" \"follow-up email sequence,\" \"nobody's replying to my emails,\" or \"how do I write a cold email.\" Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences. For warm/lifecycle email sequences, see email-sequence. For sales collateral beyond emails, see sales-enablement.",
+    "keywords": "growth marketing cold email writing write b2b emails and follow sequences that get replies use when the user wants outreach prospecting campaigns sales development sdr also mentions outbound leads reach out prospects sequence nobody replying how covers subject lines opening body copy ctas personalization multi touch for warm lifecycle see collateral beyond enablement"
+  },
+  {
+    "id": "growth-marketing-cold-email-benchmarks",
+    "title": "Benchmarks, Data & Expert Methods",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/cold-email-benchmarks.md",
+    "snippet": "Benchmarks, Data & Expert Methods Core Performance Metrics (2024–2025) | Metric | Average | Good | Excellent | Source | | -------------------------- | ------- | ------ | --------- | ------------------------ | | Open rate | 27.7% | 40–45% | 50%+ | Belkins, Snov.io | | Reply rate | 4–5.8% | 5–10% | 10–15% | Belkins, Reac…",
+    "keywords": "growth marketing cold email benchmarks data expert methods"
+  },
+  {
+    "id": "growth-marketing-cold-email-follow-up-sequences",
+    "title": "Follow-Up Sequences",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/cold-email-follow-up-sequences.md",
+    "snippet": "Follow-Up Sequences 55% of replies come from follow-ups, not the initial email. Yet 48% of salespeople never follow up even once. How Many: 3–5 Total Emails - Highest single-email reply rate: **8.4%** (Belkins). - 4–7 email campaigns achieve **27% reply rates** vs 9% for 1–3 emails (Woodpecker, 20M emails). - By 4th fo…",
+    "keywords": "growth marketing cold email follow sequences"
+  },
+  {
+    "id": "growth-marketing-cold-email-frameworks",
+    "title": "Cold Email Copywriting Frameworks",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/cold-email-frameworks.md",
+    "snippet": "Cold Email Copywriting Frameworks Frameworks beat templates — they teach thinking patterns, not copy-paste shortcuts. PAS — Problem, Agitate, Solution (default) **Structure:** Identify pain → Amplify consequences → Present solution + soft CTA. **Best for:** Problem-aware but not solution-aware prospects. The workhorse…",
+    "keywords": "growth marketing cold email frameworks copywriting"
+  },
+  {
+    "id": "growth-marketing-cold-email-personalization",
+    "title": "Personalization at Scale",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/cold-email-personalization.md",
+    "snippet": "Personalization at Scale Personalization drives **50–250% more replies** (Lavender). The key insight: **if your personalization has nothing to do with the problem you solve, it's just an attention hack** (Clay). Four Levels of Personalization Level 1 — Basic (merge tags) First name, company name, job title. Table stake…",
+    "keywords": "growth marketing cold email personalization scale"
+  },
+  {
+    "id": "growth-marketing-cold-email-subject-lines",
+    "title": "Subject Line Optimization",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/cold-email-subject-lines.md",
+    "snippet": "Subject Line Optimization The subject line determines whether the email gets read. The data is counterintuitive: **short, boring, internal-looking subject lines win decisively.** Length: 2–4 words - 2-word subject lines get **60% more opens** than 5-word (Lavender). - Going from 2 to 4 words reduces replies by **17.5%*…",
+    "keywords": "growth marketing cold email subject lines line optimization"
+  },
+  {
+    "id": "growth-marketing-competitor-alternatives",
+    "title": "Competitor & Alternative Pages",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/competitor-alternatives.md",
+    "snippet": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'how do we compare to X,' 'battle card,' or 'competitor teardown.' Use this for any content that positions your product against competitors. Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. For sales-specific competitor docs, see sales-enablement.",
+    "keywords": "growth marketing competitor alternatives alternative pages when the user wants create comparison for seo and sales enablement also use mentions page product competitive landing how compare battle card teardown this any content that positions your against competitors covers four formats singular plural you specific docs see"
+  },
+  {
+    "id": "growth-marketing-competitor-alternatives-content-architecture",
+    "title": "Content Architecture for Competitor Pages",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/competitor-alternatives-content-architecture.md",
+    "snippet": "Content Architecture for Competitor Pages How to structure and maintain competitor data for scalable comparison pages. Contents - Centralized Competitor Data - Competitor Data Template - Your Product Data - Page Generation - Index Page Structure (alternatives index, vs comparisons index, index page best practices) - Fo…",
+    "keywords": "growth marketing competitor alternatives content architecture for pages"
+  },
+  {
+    "id": "growth-marketing-competitor-alternatives-templates",
+    "title": "Section Templates for Competitor Pages",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/competitor-alternatives-templates.md",
+    "snippet": "Section Templates for Competitor Pages Ready-to-use templates for each section of competitor comparison pages. Contents - TL;DR Summary - Paragraph Comparison (Not Just Tables) - Feature Comparison Section - Pricing Comparison Section - Service & Support Comparison - Who It's For Section - Migration Section - Social Pr…",
+    "keywords": "growth marketing competitor alternatives templates section for pages"
+  },
+  {
+    "id": "growth-marketing-content-strategy",
+    "title": "Content Strategy",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/content-strategy.md",
+    "snippet": "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blog strategy,\" \"topic clusters,\" \"content planning,\" \"editorial calendar,\" \"content marketing,\" \"content roadmap,\" \"what content should I create,\" \"blog topics,\" \"content pillars,\" or \"I don't know what to write.\" Use this whenever someone needs help deciding what content to produce, not just writing it. For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit. For social media content specifically, see social-content.",
+    "keywords": "growth marketing content strategy when the user wants plan decide what create figure out topics cover also use mentions should write about ideas blog topic clusters planning editorial calendar roadmap pillars don know this whenever someone needs help deciding produce not just writing for individual pieces see copywriting seo specific audits audit social media specifically"
+  },
+  {
+    "id": "growth-marketing-content-strategy-headless-cms",
+    "title": "Headless CMS Guide",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/content-strategy-headless-cms.md",
+    "snippet": "Headless CMS Guide Reference for choosing, modeling, and implementing a headless CMS for marketing content. When to Use This Reference Use this when selecting a CMS for a new project, designing content models for marketing sites, setting up editorial workflows, or connecting CMS content to programmatic pages. --- Headl…",
+    "keywords": "growth marketing content strategy headless cms guide"
+  },
+  {
+    "id": "growth-marketing-copy-editing",
+    "title": "Copy Editing",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/copy-editing.md",
+    "snippet": "When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' 'copy sweep,' 'tighten this up,' 'this reads awkwardly,' 'clean up this text,' 'too wordy,' or 'sharpen the messaging.' Use this when the user already has copy and wants it improved rather than rewritten from scratch. For writing new copy, see copywriting.",
+    "keywords": "growth marketing copy editing when the user wants edit review improve existing also use mentions this feedback proofread polish make better sweep tighten reads awkwardly clean text too wordy sharpen messaging already has and improved rather than rewritten from scratch for writing new see copywriting"
+  },
+  {
+    "id": "growth-marketing-copy-editing-plain-english-alternatives",
+    "title": "Plain English Alternatives",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/copy-editing-plain-english-alternatives.md",
+    "snippet": "Plain English Alternatives Replace complex or pompous words with plain English alternatives. Source: Plain English Campaign A-Z of Alternative Words (2001), Australian Government Style Manual (2024), plainlanguage.gov --- Contents - A - B - C - D - E - F - G-H - I - L-M - N-O - P - R - S - T-U - V-Z - Phrases to Remove…",
+    "keywords": "growth marketing copy editing plain english alternatives"
+  },
+  {
+    "id": "growth-marketing-copywriting",
+    "title": "Copywriting",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/copywriting.md",
+    "snippet": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" \"CTA copy,\" \"value proposition,\" \"tagline,\" \"subheadline,\" \"hero section copy,\" \"above the fold,\" \"this copy is weak,\" \"make this more compelling,\" or \"help me describe my product.\" Use this whenever someone is working on website text that needs to persuade or convert. For email copy, see email-sequence. For popup copy, see popup-cro. For editing existing copy, see copy-editing.",
+    "keywords": "growth marketing copywriting when the user wants write rewrite improve copy for any page including homepage landing pages pricing feature about product also use says this headline help cta value proposition tagline subheadline hero section above fold weak make more compelling describe whenever someone working website text that needs persuade convert email see sequence popup cro editing existing"
+  },
+  {
+    "id": "growth-marketing-copywriting-copy-frameworks",
+    "title": "Copy Frameworks Reference",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/copywriting-copy-frameworks.md",
+    "snippet": "Copy Frameworks Reference Headline formulas, page section types, and structural templates. Contents - Headline Formulas (outcome-focused, problem-focused, audience-focused, differentiation-focused, proof-focused, additional formulas) - Landing Page Section Types (core sections, supporting sections) - Page Structure Tem…",
+    "keywords": "growth marketing copywriting copy frameworks reference"
+  },
+  {
+    "id": "growth-marketing-copywriting-natural-transitions",
+    "title": "Natural Transitions",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/copywriting-natural-transitions.md",
+    "snippet": "Natural Transitions Transitional phrases to guide readers through your content. Good signposting improves readability, user engagement, and helps search engines understand content structure. Adapted from: University of Manchester Academic Phrasebank (2023), Plain English Campaign, web content best practices --- Content…",
+    "keywords": "growth marketing copywriting natural transitions"
+  },
+  {
+    "id": "growth-marketing-email-sequence",
+    "title": "Email Sequence Design",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/email-sequence.md",
+    "snippet": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nurture sequence,\" \"onboarding emails,\" \"welcome sequence,\" \"re-engagement emails,\" \"email automation,\" \"lifecycle emails,\" \"trigger-based emails,\" \"email funnel,\" \"email workflow,\" \"what emails should I send,\" \"welcome series,\" or \"email cadence.\" Use this for any multi-email automated flow. For cold outreach emails, see cold-email. For in-app onboarding, see onboarding-cro.",
+    "keywords": "growth marketing email sequence design when the user wants create optimize drip campaign automated flow lifecycle program also use mentions nurture onboarding emails welcome engagement automation trigger based funnel workflow what should send series cadence this for any multi cold outreach see app cro"
+  },
+  {
+    "id": "growth-marketing-email-sequence-copy-guidelines",
+    "title": "Email Copy Guidelines",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/email-sequence-copy-guidelines.md",
+    "snippet": "Email Copy Guidelines Contents - Structure - Formatting - Tone - Length - CTA Buttons vs. Links - Personalization (merge fields, dynamic content, triggered emails) - Segmentation Strategies (by behavior, by stage, by profile) - Testing and Optimization (what to test, how to test, metrics to track) Structure 1. **Hook**…",
+    "keywords": "growth marketing email sequence copy guidelines"
+  },
+  {
+    "id": "growth-marketing-email-sequence-email-types",
+    "title": "Email Types Reference",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/email-sequence-email-types.md",
+    "snippet": "Email Types Reference A comprehensive guide to lifecycle and campaign emails. Use this as an audit checklist and implementation reference. Contents - Onboarding Emails (new users series, new customers series, key onboarding step reminder, new user invite) - Retention Emails (upgrade to paid, upgrade to higher plan, ask…",
+    "keywords": "growth marketing email sequence types reference"
+  },
+  {
+    "id": "growth-marketing-email-sequence-sequence-templates",
+    "title": "Email Sequence Templates",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/email-sequence-sequence-templates.md",
+    "snippet": "Email Sequence Templates Detailed templates for common email sequences. Contents - Welcome Sequence (Post-Signup) - Lead Nurture Sequence (Pre-Sale) - Re-Engagement Sequence - Onboarding Sequence (Product Users) Welcome Sequence (Post-Signup) **Email 1: Welcome (Immediate)** - Subject: Welcome to [Product] — here's you…",
+    "keywords": "growth marketing email sequence templates"
+  },
+  {
+    "id": "growth-marketing-form-cro",
+    "title": "Form CRO",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/form-cro.md",
+    "snippet": "When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions \"form optimization,\" \"lead form conversions,\" \"form friction,\" \"form fields,\" \"form completion rate,\" \"contact form,\" \"nobody fills out our form,\" \"form abandonment,\" \"too many fields,\" \"demo request form,\" or \"lead form isn't converting.\" Use this for any non-signup form that captures information. For signup/registration forms, see signup-flow-cro. For popups containing forms, see popup-cro.",
+    "keywords": "growth marketing form cro when the user wants optimize any that not signup registration including lead capture forms contact demo request application survey checkout also use mentions optimization conversions friction fields completion rate nobody fills out our abandonment too many isn converting this for non captures information see flow popups containing popup"
+  },
+  {
+    "id": "growth-marketing-free-tool-strategy",
+    "title": "Free Tool Strategy (Engineering as Marketing)",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/free-tool-strategy.md",
+    "snippet": "When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"free tool,\" \"marketing tool,\" \"calculator,\" \"generator,\" \"interactive tool,\" \"lead gen tool,\" \"build a tool for leads,\" \"free resource,\" \"ROI calculator,\" \"grader tool,\" \"audit tool,\" \"should I build a free tool,\" or \"tools for lead gen.\" Use this whenever someone wants to build something useful and give it away to attract leads or earn links. For downloadable content lead magnets (ebooks, checklists, templates), see lead-magnets.",
+    "keywords": "growth marketing free tool strategy engineering when the user wants plan evaluate build for purposes lead generation seo value brand awareness also use mentions calculator generator interactive gen leads resource roi grader audit should tools this whenever someone something useful and give away attract earn links downloadable content magnets ebooks checklists templates see"
+  },
+  {
+    "id": "growth-marketing-free-tool-strategy-tool-types",
+    "title": "Free Tool Types Reference",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/free-tool-strategy-tool-types.md",
+    "snippet": "Free Tool Types Reference Detailed guide to each type of marketing tool you can build. Contents - Calculators - Generators - Analyzers/Auditors - Testers/Validators - Libraries/Resources - Interactive Educational - Tool Concept Examples by Industry (SaaS product, agency/services, e-commerce, developer tools, finance) C…",
+    "keywords": "growth marketing free tool strategy types reference"
+  },
+  {
+    "id": "growth-marketing-launch-strategy",
+    "title": "Launch Strategy",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/launch-strategy.md",
+    "snippet": "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'how do I launch this,' 'launch checklist,' 'GTM plan,' or 'we're about to ship.' Use this whenever someone is preparing to release something publicly. For ongoing marketing after launch, see marketing-ideas.",
+    "keywords": "growth marketing launch strategy when the user wants plan product feature announcement release also use mentions hunt market beta early access waitlist update how this checklist gtm about ship whenever someone preparing something publicly for ongoing after see ideas"
+  },
+  {
+    "id": "growth-marketing-lead-magnets",
+    "title": "Lead Magnets",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/lead-magnets.md",
+    "snippet": "When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the user mentions \"lead magnet,\" \"gated content,\" \"content upgrade,\" \"downloadable,\" \"ebook,\" \"cheat sheet,\" \"checklist,\" \"template download,\" \"opt-in,\" \"freebie,\" \"PDF download,\" \"resource library,\" \"content offer,\" \"email capture content,\" \"Notion template,\" \"spreadsheet template,\" or \"what should I give away for emails.\" Use this for planning what to create and how to distribute it. For interactive tools as lead magnets, see free-tool-strategy. For writing the actual content, see copywriting. For the email sequence after capture, see email-sequence.",
+    "keywords": "growth marketing lead magnets when the user wants create plan optimize magnet for email capture generation also use mentions gated content upgrade downloadable ebook cheat sheet checklist template download opt freebie pdf resource library offer notion spreadsheet what should give away emails this planning and how distribute interactive tools see free tool strategy writing actual copywriting sequence after"
+  },
+  {
+    "id": "growth-marketing-lead-magnets-benchmarks",
+    "title": "Lead Magnet Benchmarks",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/lead-magnets-benchmarks.md",
+    "snippet": "Lead Magnet Benchmarks Reference data for planning and evaluating lead magnet performance. --- Conversion Rate Benchmarks By Format Type | Format | Landing Page Conversion | Notes | |--------|------------------------|-------| | Checklist | 30-50% | High because low commitment | | Cheat sheet | 25-40% | Quick reference…",
+    "keywords": "growth marketing lead magnets benchmarks magnet"
+  },
+  {
+    "id": "growth-marketing-lead-magnets-format-guide",
+    "title": "Lead Magnet Format Guide",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/lead-magnets-format-guide.md",
+    "snippet": "Lead Magnet Format Guide Detailed creation guidance for each lead magnet format. Contents - Ebooks & Guides - Checklists - Cheat Sheets - Templates & Spreadsheets - Swipe Files - Mini-Courses - Quizzes & Assessments - Webinars & Workshops --- Ebooks & Guides **Best for**: Building authority, deep education, awareness-s…",
+    "keywords": "growth marketing lead magnets format guide magnet"
+  },
+  {
+    "id": "growth-marketing-marketing-ideas",
+    "title": "Marketing Ideas for SaaS",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/marketing-ideas.md",
+    "snippet": "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' 'ideas to grow,' 'what else can I try,' 'I don't know how to market this,' 'brainstorm marketing,' or 'what marketing should I do.' Use this as a starting point whenever someone is stuck or looking for inspiration on how to grow. For specific channel execution, see the relevant skill (paid-ads, social-content, email-sequence, etc.).",
+    "keywords": "growth marketing ideas for saas when the user needs inspiration strategies their software product also use asks how market tactics ways promote grow what else can try don know this brainstorm should starting point whenever someone stuck looking specific channel execution see relevant skill paid ads social content email sequence etc"
+  },
+  {
+    "id": "growth-marketing-marketing-ideas-ideas-by-category",
+    "title": "The 139 Marketing Ideas",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/marketing-ideas-ideas-by-category.md",
+    "snippet": "The 139 Marketing Ideas Complete list of proven marketing approaches organized by category. Contents - Content & SEO (1-10) - Competitor & Comparison (11-13) - Free Tools & Engineering (14-22) - Paid Advertising (23-34) - Social Media & Community (35-44) - Email Marketing (45-53) - Partnerships & Programs (54-64) - Eve…",
+    "keywords": "growth marketing ideas category the 139"
+  },
+  {
+    "id": "growth-marketing-marketing-psychology",
+    "title": "Marketing Psychology & Mental Models",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/marketing-psychology.md",
+    "snippet": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' 'social proof,' 'scarcity,' 'loss aversion,' 'framing,' or 'nudge.' Use this whenever someone wants to understand or leverage how people think and make decisions in a marketing context.",
+    "keywords": "growth marketing psychology mental models when the user wants apply psychological principles behavioral science also use mentions cognitive bias persuasion why people buy decision making consumer behavior anchoring social proof scarcity loss aversion framing nudge this whenever someone understand leverage how think and make decisions context"
+  },
+  {
+    "id": "growth-marketing-onboarding-cro",
+    "title": "Onboarding CRO",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/onboarding-cro.md",
+    "snippet": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" \"new user experience,\" \"users aren't activating,\" \"nobody completes setup,\" \"low activation rate,\" \"users sign up but don't use the product,\" \"time to value,\" or \"first session experience.\" Use this whenever users are signing up but not sticking around. For signup/registration optimization, see signup-flow-cro. For ongoing email sequences, see email-sequence.",
+    "keywords": "growth marketing onboarding cro when the user wants optimize post signup activation first run experience time value also use mentions flow rate empty states checklist aha moment new users aren activating nobody completes setup low sign but don product session this whenever are signing not sticking around for registration optimization see ongoing email sequences sequence"
+  },
+  {
+    "id": "growth-marketing-onboarding-cro-experiments",
+    "title": "Onboarding Experiment Ideas",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/onboarding-cro-experiments.md",
+    "snippet": "Onboarding Experiment Ideas Comprehensive list of A/B tests and experiments for user onboarding and activation. Contents - Flow Simplification Experiments (reduce friction, step sequencing, progress & motivation) - Guided Experience Experiments (product tours, CTA optimization, UI guidance) - Personalization Experiment…",
+    "keywords": "growth marketing onboarding cro experiments experiment ideas"
+  },
+  {
+    "id": "growth-marketing-page-cro",
+    "title": "Page Conversion Rate Optimization (CRO)",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/page-cro.md",
+    "snippet": "When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says \"CRO,\" \"conversion rate optimization,\" \"this page isn't converting,\" \"improve conversions,\" \"why isn't this page working,\" \"my landing page sucks,\" \"nobody's converting,\" \"low conversion rate,\" \"bounce rate is too high,\" \"people leave without signing up,\" or \"this page needs work.\" Use this even if the user just shares a URL and asks for feedback — they probably want conversion help. For signup/registration flows, see signup-flow-cro. For post-signup activation, see onboarding-cro. For forms outside of signup, see form-cro. For popups/modals, see popup-cro.",
+    "keywords": "growth marketing page cro conversion rate optimization when the user wants optimize improve increase conversions any including homepage landing pages pricing feature blog posts also use says this isn converting why working sucks nobody low bounce too high people leave without signing needs work even just shares url and asks for feedback they probably want help signup registration flows see flow post activation onboarding forms outside form popups modals popup"
+  },
+  {
+    "id": "growth-marketing-page-cro-experiments",
+    "title": "Page CRO Experiment Ideas",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/page-cro-experiments.md",
+    "snippet": "Page CRO Experiment Ideas Comprehensive list of A/B tests and experiments organized by page type. Contents - Homepage Experiments (Hero Section, Trust & Social Proof, Features & Content, Navigation & UX) - Pricing Page Experiments (Price Presentation, Pricing UX, Objection Handling, Trust Signals) - Demo Request Page E…",
+    "keywords": "growth marketing page cro experiments experiment ideas"
+  },
+  {
+    "id": "growth-marketing-paid-ads",
+    "title": "Paid Ads",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/paid-ads.md",
+    "snippet": "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' 'audience targeting,' 'Google Ads,' 'Facebook ads,' 'LinkedIn ads,' 'ad budget,' 'cost per click,' 'ad spend,' or 'should I run ads.' Use this for campaign strategy, audience targeting, bidding, and optimization. For bulk ad creative generation and iteration, see ad-creative. For landing page optimization, see page-cro.",
+    "keywords": "growth marketing paid ads when the user wants help with advertising campaigns google meta facebook instagram linkedin twitter other platforms also use mentions ppc media roas cpa campaign retargeting audience targeting budget cost per click spend should run this for strategy bidding and optimization bulk creative generation iteration see landing page cro"
+  },
+  {
+    "id": "growth-marketing-paid-ads-ad-copy-templates",
+    "title": "Ad Copy Templates Reference",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/paid-ads-ad-copy-templates.md",
+    "snippet": "Ad Copy Templates Reference Detailed formulas and templates for writing high-converting ad copy. Contents - Primary Text Formulas (Problem-Agitate-Solve, Before-After-Bridge, Social Proof Lead, Feature-Benefit Bridge, Direct Response) - Headline Formulas (For Search Ads, For Social Ads) - CTA Variations (Soft CTAs, Har…",
+    "keywords": "growth marketing paid ads copy templates reference"
+  },
+  {
+    "id": "growth-marketing-paid-ads-audience-targeting",
+    "title": "Audience Targeting Reference",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/paid-ads-audience-targeting.md",
+    "snippet": "Audience Targeting Reference Detailed targeting strategies for each major ad platform. Contents - Google Ads Audiences (Search Campaign Targeting, Display/YouTube Targeting) - Meta Audiences (Core Audiences, Custom Audiences, Lookalike Audiences) - LinkedIn Audiences (Job-Based Targeting, Company-Based Targeting, High-…",
+    "keywords": "growth marketing paid ads audience targeting reference"
+  },
+  {
+    "id": "growth-marketing-paid-ads-platform-setup-checklists",
+    "title": "Platform Setup Checklists",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/paid-ads-platform-setup-checklists.md",
+    "snippet": "Platform Setup Checklists Complete setup checklists for major ad platforms. Contents - Google Ads Setup (Account Foundation, Conversion Tracking, Analytics Integration, Audience Setup, Campaign Readiness, Ad Extensions, Brand Protection) - Meta Ads Setup (Business Manager Foundation, Pixel & Tracking, Domain & Aggregat…",
+    "keywords": "growth marketing paid ads platform setup checklists"
+  },
+  {
+    "id": "growth-marketing-paywall-upgrade-cro",
+    "title": "Paywall and Upgrade Screen CRO",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/paywall-upgrade-cro.md",
+    "snippet": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit reached screen,\" \"plan upgrade prompt,\" \"in-app pricing,\" \"free users won't upgrade,\" \"trial to paid conversion,\" or \"how do I get users to pay.\" Use this for any in-product moment where you're asking users to upgrade. Distinct from public pricing pages (see page-cro) — this focuses on in-product upgrade moments where the user has already experienced value. For pricing decisions, see pricing-strategy.",
+    "keywords": "growth marketing paywall upgrade cro and screen when the user wants create optimize app paywalls screens upsell modals feature gates also use mentions modal gate convert free paid freemium conversion trial expiration limit reached plan prompt pricing users won how get pay this for any product moment where you asking distinct from public pages see page focuses moments has already experienced value decisions strategy"
+  },
+  {
+    "id": "growth-marketing-paywall-upgrade-cro-experiments",
+    "title": "Paywall Experiment Ideas",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/paywall-upgrade-cro-experiments.md",
+    "snippet": "Paywall Experiment Ideas Comprehensive list of A/B tests and experiments for paywall optimization. Contents - Trigger & Timing Experiments (When to Show, Trigger Type) - Paywall Design Experiments (Layout & Format, Value Presentation, Visual Elements) - Pricing Presentation Experiments (Price Display, Plan Options, Dis…",
+    "keywords": "growth marketing paywall upgrade cro experiments experiment ideas"
+  },
+  {
+    "id": "growth-marketing-popup-cro",
+    "title": "Popup CRO",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/popup-cro.md",
+    "snippet": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" \"overlay,\" \"collect emails with a popup,\" \"exit popup,\" \"scroll trigger,\" \"sticky bar,\" or \"notification bar.\" Use this for any overlay or interrupt-style conversion element. For forms outside of popups, see form-cro. For general page conversion optimization, see page-cro.",
+    "keywords": "growth marketing popup cro when the user wants create optimize popups modals overlays slide ins banners for conversion purposes also use mentions exit intent conversions modal optimization lead capture email announcement banner overlay collect emails with scroll trigger sticky bar notification this any interrupt style element forms outside see form general page"
+  },
+  {
+    "id": "growth-marketing-pricing-strategy",
+    "title": "Pricing Strategy",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/pricing-strategy.md",
+    "snippet": "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I charge,' 'my pricing is wrong,' 'pricing page,' 'annual vs monthly,' 'per seat pricing,' or 'should I offer a free plan.' Use this whenever someone is figuring out what to charge or how to structure their plans. For in-app upgrade screens, see paywall-upgrade-cro.",
+    "keywords": "growth marketing pricing strategy when the user wants help with decisions packaging monetization also use mentions tiers freemium free trial price increase value metric van westendorp willingness pay how much should charge wrong page annual monthly per seat offer plan this whenever someone figuring out what structure their plans for app upgrade screens see paywall cro"
+  },
+  {
+    "id": "growth-marketing-pricing-strategy-research-methods",
+    "title": "Pricing Research Methods",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/pricing-strategy-research-methods.md",
+    "snippet": "Pricing Research Methods Contents - Van Westendorp Price Sensitivity Meter (The Four Questions, How to Analyze, Survey Tips, Sample Output) - MaxDiff Analysis (How It Works, Example Survey Question, Analyzing Results, Using MaxDiff for Packaging) - Willingness to Pay Surveys - Usage-Value Correlation Analysis Van Weste…",
+    "keywords": "growth marketing pricing strategy research methods"
+  },
+  {
+    "id": "growth-marketing-pricing-strategy-tier-structure",
+    "title": "Tier Structure and Packaging",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/pricing-strategy-tier-structure.md",
+    "snippet": "Tier Structure and Packaging Contents - How Many Tiers? - Good-Better-Best Framework - Tier Differentiation Strategies - Example Tier Structure - Packaging for Personas (Identifying Pricing Personas, Persona-Based Packaging) - Freemium vs. Free Trial (When to Use Freemium, When to Use Free Trial, Hybrid Approaches) - E…",
+    "keywords": "growth marketing pricing strategy tier structure and packaging"
+  },
+  {
+    "id": "growth-marketing-product-marketing-context",
+    "title": "Product Marketing Context",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/product-marketing-context.md",
+    "snippet": "When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/product-marketing-context.md` that all other skills reference for product, audience, and positioning context.",
+    "keywords": "growth marketing product context when the user wants create update their document also use mentions set positioning who target audience describe icp ideal customer profile avoid repeating foundational information across tasks this start any new project before using other skills creates agents that all reference for and"
+  },
+  {
+    "id": "growth-marketing-programmatic-seo",
+    "title": "Programmatic SEO",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/programmatic-seo.md",
+    "snippet": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" \"building many pages for SEO,\" \"pSEO,\" \"generate 100 pages,\" \"data-driven pages,\" or \"templated landing pages.\" Use this whenever someone wants to create many similar pages targeting different keywords or locations. For auditing existing SEO issues, see seo-audit. For content strategy planning, see content-strategy.",
+    "keywords": "growth marketing programmatic seo when the user wants create driven pages scale using templates and data also use mentions template directory location keyword city comparison integration building many for pseo generate 100 templated landing this whenever someone similar targeting different keywords locations auditing existing issues see audit content strategy planning"
+  },
+  {
+    "id": "growth-marketing-programmatic-seo-playbooks",
+    "title": "The 12 Programmatic SEO Playbooks",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/programmatic-seo-playbooks.md",
+    "snippet": "The 12 Programmatic SEO Playbooks Beyond mixing and matching data point permutations, these are the proven playbooks for programmatic SEO. Contents - 1. Templates - 2. Curation - 3. Conversions - 4. Comparisons - 5. Examples - 6. Locations - 7. Personas - 8. Integrations - 9. Glossary - 10. Translations - 11. Directory…",
+    "keywords": "growth marketing programmatic seo playbooks the"
+  },
+  {
+    "id": "growth-marketing-referral-program",
+    "title": "Referral & Affiliate Programs",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/referral-program.md",
+    "snippet": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' or 'affiliate payout.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch-strategy.",
+    "keywords": "growth marketing referral program affiliate programs when the user wants create optimize analyze word mouth strategy also use mentions ambassador viral loop refer friend partner incentive how get referrals customers referring payout this whenever someone existing users partners bring new for launch specific virality see"
+  },
+  {
+    "id": "growth-marketing-referral-program-affiliate-programs",
+    "title": "Affiliate Program Design",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/referral-program-affiliate-programs.md",
+    "snippet": "Affiliate Program Design Detailed guidance for building and managing affiliate programs. Contents - Commission Structures - Cookie Duration - Affiliate Recruitment - Affiliate Enablement - Tools & Platforms (Referral Program Tools, Affiliate Program Tools, Choosing a Tool) - Fraud Prevention (Common Referral Fraud, Pre…",
+    "keywords": "growth marketing referral program affiliate programs design"
+  },
+  {
+    "id": "growth-marketing-referral-program-program-examples",
+    "title": "Referral Program Examples",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/referral-program-program-examples.md",
+    "snippet": "Referral Program Examples Real-world examples of successful referral programs. Contents - Dropbox (Classic) - Uber/Lyft - Morning Brew - Notion - Incentive Types Comparison - Incentive Sizing Framework - Viral Coefficient & Metrics (Key Metrics, Calculating Referral Program ROI) Dropbox (Classic) **Program:** Give 500M…",
+    "keywords": "growth marketing referral program examples"
+  },
+  {
+    "id": "growth-marketing-revops",
+    "title": "RevOps",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/revops.md",
+    "snippet": "When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,' 'revenue operations,' 'lead scoring,' 'lead routing,' 'MQL,' 'SQL,' 'pipeline stages,' 'deal desk,' 'CRM automation,' 'marketing-to-sales handoff,' 'data hygiene,' 'leads aren't getting to sales,' 'pipeline management,' 'lead qualification,' or 'when should marketing hand off to sales.' Use this for anything involving the systems and processes that connect marketing to revenue. For cold outreach emails, see cold-email. For email drip campaigns, see email-sequence. For pricing decisions, see pricing-strategy.",
+    "keywords": "growth marketing revops when the user wants help with revenue operations lead lifecycle management sales handoff processes also use mentions scoring routing mql sql pipeline stages deal desk crm automation data hygiene leads aren getting qualification should hand off this for anything involving systems and that connect cold outreach emails see email drip campaigns sequence pricing decisions strategy"
+  },
+  {
+    "id": "growth-marketing-revops-automation-playbooks",
+    "title": "Automation Playbooks",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/revops-automation-playbooks.md",
+    "snippet": "Automation Playbooks Platform-specific workflow recipes for HubSpot, Salesforce, scheduling tools, and cross-tool automation. HubSpot Workflow Recipes 1. MQL Alert and Assignment **Name:** MQL Notification and Task Creation **Trigger:** Contact property \"Lifecycle Stage\" is changed to \"Marketing Qualified Lead\" **Actio…",
+    "keywords": "growth marketing revops automation playbooks"
+  },
+  {
+    "id": "growth-marketing-revops-lifecycle-definitions",
+    "title": "Lifecycle Stage Definitions",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/revops-lifecycle-definitions.md",
+    "snippet": "Lifecycle Stage Definitions Complete templates for lead lifecycle stages, MQL criteria by business type, SLAs, and rejection/recycling workflows. Stage Templates Subscriber **Entry criteria:** - Opted in to blog, newsletter, or content updates - No company information required **Exit criteria:** - Provides company info…",
+    "keywords": "growth marketing revops lifecycle definitions stage"
+  },
+  {
+    "id": "growth-marketing-revops-routing-rules",
+    "title": "Lead Routing Rules",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/revops-routing-rules.md",
+    "snippet": "Lead Routing Rules Decision trees, platform-specific configurations, territory routing, ABM routing, and speed-to-lead benchmarks. Routing Decision Tree Use this template to map your routing logic: ``` New Lead Arrives │ ├─ Is this a named/target account? │ ├─ YES → Route to assigned account owner │ └─ NO ↓ │ ├─ Is ACV…",
+    "keywords": "growth marketing revops routing rules lead"
+  },
+  {
+    "id": "growth-marketing-revops-scoring-models",
+    "title": "Lead Scoring Models",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/revops-scoring-models.md",
+    "snippet": "Lead Scoring Models Detailed scoring templates, example models by business type, and calibration guidance. Explicit Scoring Template (Fit) Company Attributes | Attribute | Criteria | Points | |-----------|----------|--------| | **Company size** | 1-10 employees | +5 | | | 11-50 employees | +10 | | | 51-200 employees |…",
+    "keywords": "growth marketing revops scoring models lead"
+  },
+  {
+    "id": "growth-marketing-sales-enablement",
+    "title": "Sales Enablement",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/sales-enablement.md",
+    "snippet": "When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also use when the user mentions 'sales deck,' 'pitch deck,' 'one-pager,' 'leave-behind,' 'objection handling,' 'deal-specific ROI analysis,' 'demo script,' 'talk track,' 'sales playbook,' 'proposal template,' 'buyer persona card,' 'help my sales team,' 'sales materials,' or 'what should I give my sales reps.' Use this for any document or asset that helps a sales team close deals. For competitor comparison pages and battle cards, see competitor-alternatives. For marketing website copy, see copywriting. For cold outreach emails, see cold-email.",
+    "keywords": "growth marketing sales enablement when the user wants create collateral pitch decks one pagers objection handling docs demo scripts also use mentions deck pager leave behind deal specific roi analysis script talk track playbook proposal template buyer persona card help team materials what should give reps this for any document asset that helps close deals competitor comparison pages and battle cards see alternatives website copy copywriting cold outreach emails email"
+  },
+  {
+    "id": "growth-marketing-sales-enablement-deck-frameworks",
+    "title": "Sales Deck Frameworks",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/sales-enablement-deck-frameworks.md",
+    "snippet": "Sales Deck Frameworks Detailed slide-by-slide guidance for building sales decks that tell a story and close deals. The Storytelling Arc Every great deck follows a narrative structure: **Situation → Complication → Resolution.** - **Situation** (Slides 1-3): The world your buyer lives in. Establish shared understanding.…",
+    "keywords": "growth marketing sales enablement deck frameworks"
+  },
+  {
+    "id": "growth-marketing-sales-enablement-demo-scripts",
+    "title": "Demo Script Templates",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/sales-enablement-demo-scripts.md",
+    "snippet": "Demo Script Templates Scene-by-scene templates for different call types, with timing, talk tracks, and interaction guidance. Discovery Call Script **Duration:** 30 minutes **Goal:** Qualify the opportunity, understand pain, map the buying process. Scene 1: Opening (3 min) **Talk track:** > \"Thanks for taking the time,…",
+    "keywords": "growth marketing sales enablement demo scripts script templates"
+  },
+  {
+    "id": "growth-marketing-sales-enablement-objection-library",
+    "title": "Objection Library",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/sales-enablement-objection-library.md",
+    "snippet": "Objection Library Common B2B SaaS objections with response frameworks. Organized by category for quick reference. Quick-Reference Table For live calls. Find the objection, scan the response, reference the proof. | Objection | Response (1-line) | Proof Point | |-----------|--------------------|-------------| | \"Too expe…",
+    "keywords": "growth marketing sales enablement objection library"
+  },
+  {
+    "id": "growth-marketing-sales-enablement-one-pager-templates",
+    "title": "One-Pager Templates",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/sales-enablement-one-pager-templates.md",
+    "snippet": "One-Pager Templates Templates for different one-pager use cases, with layout guidance and copy prompts. Product Overview One-Pager The default one-pager. Introduces your product to someone who knows nothing about you. Structure ``` [Logo] [Tagline] HEADLINE: One sentence describing what you do and who it's for. THE PRO…",
+    "keywords": "growth marketing sales enablement one pager templates"
+  },
+  {
+    "id": "growth-marketing-schema-markup",
+    "title": "Schema Markup",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/schema-markup.md",
+    "snippet": "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema.org,\" \"FAQ schema,\" \"product schema,\" \"review schema,\" \"breadcrumb schema,\" \"Google rich results,\" \"knowledge panel,\" \"star ratings in search,\" or \"add structured data.\" Use this whenever someone wants their pages to show enhanced results in Google. For broader SEO issues, see seo-audit. For AI search optimization, see ai-seo.",
+    "keywords": "growth marketing schema markup when the user wants add fix optimize and structured data their site also use mentions json rich snippets org faq product review breadcrumb google results knowledge panel star ratings search this whenever someone pages show enhanced for broader seo issues see audit optimization"
+  },
+  {
+    "id": "growth-marketing-schema-markup-schema-examples",
+    "title": "Schema Markup Examples",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/schema-markup-schema-examples.md",
+    "snippet": "Schema Markup Examples Complete JSON-LD examples for common schema types. Contents - Organization - WebSite (with SearchAction) - Article / BlogPosting - Product - SoftwareApplication - FAQPage - HowTo - BreadcrumbList - LocalBusiness - Event - Multiple Schema Types - Implementation Example (Next.js) Organization For c…",
+    "keywords": "growth marketing schema markup examples"
+  },
+  {
+    "id": "growth-marketing-seo-audit",
+    "title": "SEO Audit",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/seo-audit.md",
+    "snippet": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" \"SEO health check,\" \"my traffic dropped,\" \"lost rankings,\" \"not showing up in Google,\" \"site isn't ranking,\" \"Google update hit me,\" \"page speed,\" \"core web vitals,\" \"crawl errors,\" or \"indexing issues.\" Use this even if the user just says something vague like \"my SEO is bad\" or \"help with SEO\" — start with an audit. For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup. For AI search optimization, see ai-seo.",
+    "keywords": "growth marketing seo audit when the user wants review diagnose issues their site also use mentions technical why not ranking page meta tags health check traffic dropped lost rankings showing google isn update hit speed core web vitals crawl errors indexing this even just says something vague like bad help with start for building pages scale target keywords see programmatic adding structured data schema markup search optimization"
+  },
+  {
+    "id": "growth-marketing-seo-audit-ai-writing-detection",
+    "title": "AI Writing Detection",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/seo-audit-ai-writing-detection.md",
+    "snippet": "AI Writing Detection Words, phrases, and punctuation patterns commonly associated with AI-generated text. Avoid these to ensure writing sounds natural and human. Sources: Grammarly (2025), Microsoft 365 Life Hacks (2025), GPTHuman (2025), Walter Writes (2025), Textero (2025), Plagiarism Today (2025), Rolling Stone (202…",
+    "keywords": "growth marketing seo audit writing detection"
+  },
+  {
+    "id": "growth-marketing-signup-flow-cro",
+    "title": "Signup Flow CRO",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/signup-flow-cro.md",
+    "snippet": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" \"account creation flow,\" \"people aren't signing up,\" \"signup abandonment,\" \"trial conversion rate,\" \"nobody completes registration,\" \"too many steps to sign up,\" or \"simplify our signup.\" Use this whenever the user has a signup or registration flow that isn't performing. For post-signup onboarding, see onboarding-cro. For lead capture forms (not account creation), see form-cro.",
+    "keywords": "growth marketing signup flow cro when the user wants optimize registration account creation trial activation flows also use mentions conversions friction form optimization free reduce dropoff people aren signing abandonment conversion rate nobody completes too many steps sign simplify our this whenever has that isn performing for post onboarding see lead capture forms not"
+  },
+  {
+    "id": "growth-marketing-site-architecture",
+    "title": "Site Architecture",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/site-architecture.md",
+    "snippet": "When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. Also use when the user mentions \"sitemap,\" \"site map,\" \"visual sitemap,\" \"site structure,\" \"page hierarchy,\" \"information architecture,\" \"IA,\" \"navigation design,\" \"URL structure,\" \"breadcrumbs,\" \"internal linking strategy,\" \"website planning,\" \"what pages do I need,\" \"how should I organize my site,\" or \"site navigation.\" Use this whenever someone is planning what pages a website should have and how they connect. NOT for XML sitemaps (that's technical SEO — see seo-audit). For SEO audits, see seo-audit. For structured data, see schema-markup.",
+    "keywords": "growth marketing site architecture when the user wants plan map restructure their website page hierarchy navigation url structure internal linking also use mentions sitemap visual information design breadcrumbs strategy planning what pages need how should organize this whenever someone have and they connect not for xml sitemaps that technical seo see audit audits structured data schema markup"
+  },
+  {
+    "id": "growth-marketing-site-architecture-mermaid-templates",
+    "title": "Mermaid Diagram Templates",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/site-architecture-mermaid-templates.md",
+    "snippet": "Mermaid Diagram Templates Copy-paste-ready Mermaid diagrams for visual sitemaps. Customize node labels and connections for your site. --- Basic Hierarchy Simple top-down page hierarchy. ```mermaid graph TD HOME[\"Homepage<br/>/\"] --> FEAT[\"Features<br/>/features\"] HOME --> PRICE[\"Pricing<br/>/pricing\"] HOME --> BLOG[\"Bl…",
+    "keywords": "growth marketing site architecture mermaid templates diagram"
+  },
+  {
+    "id": "growth-marketing-site-architecture-navigation-patterns",
+    "title": "Navigation Patterns",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/site-architecture-navigation-patterns.md",
+    "snippet": "Navigation Patterns Detailed navigation patterns for different site types and contexts. --- Header Navigation Simple Header (4-6 items) Best for: small businesses, simple SaaS, portfolios. ``` [Logo] Features Pricing Blog About [CTA Button] ``` Rules: - Logo always links to homepage - CTA button is rightmost, visually…",
+    "keywords": "growth marketing site architecture navigation patterns"
+  },
+  {
+    "id": "growth-marketing-site-architecture-site-type-templates",
+    "title": "Site Type Templates",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/site-architecture-site-type-templates.md",
+    "snippet": "Site Type Templates Full page hierarchy templates with ASCII trees, URL maps, and navigation recommendations for common site types. --- SaaS Marketing Site Page Hierarchy ``` Homepage (/) ├── Features (/features) │ ├── Feature A (/features/feature-a) │ ├── Feature B (/features/feature-b) │ └── Feature C (/features/feat…",
+    "keywords": "growth marketing site architecture type templates"
+  },
+  {
+    "id": "growth-marketing-social-content",
+    "title": "Social Content",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/social-content.md",
+    "snippet": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' or 'grow my following.' Use this for any social media content creation, repurposing, or scheduling task. For broader content strategy, see content-strategy.",
+    "keywords": "growth marketing social content when the user wants help creating scheduling optimizing media for linkedin twitter instagram tiktok facebook other platforms also use mentions post thread calendar engagement viral what should repurpose this tweet ideas carousel strategy grow following any creation repurposing task broader see"
+  },
+  {
+    "id": "growth-marketing-social-content-platforms",
+    "title": "Platform-Specific Strategy Guide",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/social-content-platforms.md",
+    "snippet": "Platform-Specific Strategy Guide Detailed strategies for each major social platform. Contents - LinkedIn - Twitter/X - Instagram - TikTok - Facebook LinkedIn **Best for:** B2B, thought leadership, professional networking, recruiting **Audience:** Professionals, decision-makers, job seekers **Posting frequency:** 3-5x p…",
+    "keywords": "growth marketing social content platforms platform specific strategy guide"
+  },
+  {
+    "id": "growth-marketing-social-content-post-templates",
+    "title": "Post Format Templates",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/social-content-post-templates.md",
+    "snippet": "Post Format Templates Ready-to-use templates for different platforms and content types. Contents - LinkedIn Post Templates (The Story Post, The Contrarian Take, The List Post, The How-To) - Twitter/X Thread Templates (The Tutorial Thread, The Story Thread, The Breakdown Thread) - Instagram Templates (The Carousel Hook,…",
+    "keywords": "growth marketing social content post templates format"
+  },
+  {
+    "id": "growth-marketing-social-content-reverse-engineering",
+    "title": "Reverse Engineering Viral Content",
+    "group": "growth-marketing",
+    "skill": "growth-marketing",
+    "source": "references/social-content-reverse-engineering.md",
+    "snippet": "Reverse Engineering Viral Content Instead of guessing what works, systematically analyze top-performing content in your niche and extract proven patterns. Contents - The 6-Step Framework (Niche ID, Scrape, Analyze, Playbook, Layer Voice, Convert) - The Formula - Reverse Engineering Checklist The 6-Step Framework 1. NIC…",
+    "keywords": "growth marketing social content reverse engineering viral"
+  },
+  {
+    "id": "pmf-hypothesis-builder",
+    "title": "PMF Hypothesis Builder",
+    "group": "pmf",
+    "skill": "pmf-hypothesis-builder",
+    "source": "SKILL.md",
+    "snippet": "Guide user through defining initial PMF narrative with 6 dimensions, confidence scores, and validation priorities. This skill should be used when starting a new product-market fit discovery process or formalizing an initial product insight into a structured hypothesis.",
+    "keywords": "pmf hypothesis builder guide user through defining initial narrative with dimensions confidence scores and validation priorities this skill should used when starting new product market fit discovery process formalizing insight into structured"
+  },
+  {
+    "id": "pmf-hypothesis-builder-assets-narrative-writing-guide",
+    "title": "Narrative Writing Guide: Crafting Compelling PMF Narratives",
+    "group": "pmf",
+    "skill": "pmf-hypothesis-builder",
+    "source": "assets/narrative-writing-guide.md",
+    "snippet": "Narrative Writing Guide: Crafting Compelling PMF Narratives This guide extracts lessons from successful strategic narratives (like Calendly) to help you transform dry PMF frameworks into compelling stories that resonate with stakeholders, investors, and team members. --- The Difference Between Templates and Narratives…",
+    "keywords": "pmf hypothesis builder assets narrative writing guide crafting compelling narratives"
+  },
+  {
+    "id": "pmf-hypothesis-builder-assets-pmf-narrative-template",
+    "title": "PMF Narrative: {Product Name}",
+    "group": "pmf",
+    "skill": "pmf-hypothesis-builder",
+    "source": "assets/pmf-narrative-template.md",
+    "snippet": "PMF Narrative: {Product Name} **Current Version**: V1 **Last Updated**: {YYYY-MM-DD} **Status**: Initial hypothesis created **Product Type**: {B2C SaaS / B2B SaaS / Marketplace / DTC / Other} **Org Context**: {Zero-to-one startup / New product in established org / Product extension} --- Version History V1: Initial Hypo…",
+    "keywords": "pmf hypothesis builder assets narrative template product name"
+  },
+  {
+    "id": "pmf-hypothesis-builder-assets-pmf-narrative-template-prose",
+    "title": "PMF Narrative: {Product Name} (Prose Version)",
+    "group": "pmf",
+    "skill": "pmf-hypothesis-builder",
+    "source": "assets/pmf-narrative-template-prose.md",
+    "snippet": "PMF Narrative: {Product Name} (Prose Version) **Current Version**: V1 **Last Updated**: {YYYY-MM-DD} **Status**: Initial hypothesis created **Product Type**: {B2C SaaS / B2B SaaS / Marketplace / DTC / Other} **Org Context**: {Zero-to-one startup / New product in established org / Product extension} --- The Problem We'r…",
+    "keywords": "pmf hypothesis builder assets narrative template prose product name version"
+  },
+  {
+    "id": "pmf-market-research",
+    "title": "PMF Market Research",
+    "group": "pmf",
+    "skill": "pmf-market-research",
+    "source": "SKILL.md",
+    "snippet": "Conduct comprehensive market research across 6 PMF dimensions by identifying analogs (successes) and antilogs (failures) in parallel. This skill should be used after creating an initial PMF narrative (V1) to validate hypotheses with external market evidence before investing in customer interviews.",
+    "keywords": "pmf market research conduct comprehensive across dimensions identifying analogs successes and antilogs failures parallel this skill should used after creating initial narrative validate hypotheses with external evidence before investing customer interviews"
+  },
+  {
+    "id": "pmf-market-research-assets-market-research-synthesis-template",
+    "title": "Market Research Synthesis",
+    "group": "pmf",
+    "skill": "pmf-market-research",
+    "source": "assets/market-research-synthesis-template.md",
+    "snippet": "Market Research Synthesis **Product**: {Product Name} **Research Date**: {YYYY-MM-DD} **PMF Narrative Version**: V1 (input) → V2 (output after synthesis) **Research Duration**: {X hours/days} --- Executive Summary **Total analogs identified**: {count} across {count} dimensions **Total antilogs identified**: {count} acr…",
+    "keywords": "pmf market research assets synthesis template"
+  },
+  {
+    "id": "pmf-research-synthesis",
+    "title": "PMF Research Synthesis",
+    "group": "pmf",
+    "skill": "pmf-research-synthesis",
+    "source": "SKILL.md",
+    "snippet": "Synthesize market research and expert advice to identify the riskiest PMF dimension and update the narrative. This skill should be used after completing market research and optional expert calls to determine what to validate next.",
+    "keywords": "pmf research synthesis synthesize market and expert advice identify the riskiest dimension update narrative this skill should used after completing optional calls determine what validate next"
+  },
+  {
+    "id": "pmf-research-synthesis-assets-risk-prioritization-template",
+    "title": "PMF Risk Prioritization",
+    "group": "pmf",
+    "skill": "pmf-research-synthesis",
+    "source": "assets/risk-prioritization-template.md",
+    "snippet": "PMF Risk Prioritization **Product**: {Product Name} **Analysis Date**: {YYYY-MM-DD} **Input**: pmf-narrative.md V1 + market-research-synthesis.md + expert-notes.md **Output**: pmf-narrative.md V2 + this risk prioritization analysis --- Executive Summary **Overall confidence change**: {V1 average}/10 → {V2 average}/10 (…",
+    "keywords": "pmf research synthesis assets risk prioritization template"
+  },
+  {
+    "id": "pmf-status",
+    "title": "PMF Status",
+    "group": "pmf",
+    "skill": "pmf-status",
+    "source": "SKILL.md",
+    "snippet": "Show current PMF project status and recommend next action. This skill should be used when checking where you are in the PMF workflow or deciding what to do next.",
+    "keywords": "pmf status show current project and recommend next action this skill should used when checking where you are the workflow deciding what"
+  },
+  {
+    "id": "pmf-validate",
+    "title": "PMF Validate",
+    "group": "pmf",
+    "skill": "pmf-validate",
+    "source": "SKILL.md",
+    "snippet": "Use this skill after /pmf-research-synthesis has identified the riskiest PMF dimension. Takes that dimension (or any business idea/strategy) and runs a structured assumption extraction, mapping, and experiment design sequence. Triggers include: 'validate my riskiest dimension', 'extract assumptions', 'what are the riskiest assumptions', 'run assumption mapping', 'design an experiment', 'pressure test this', 'what could go wrong with this', or any request to surface and test specific assumptions before committing resources. Runs a guided Extract → Map → Test workflow.",
+    "keywords": "pmf validate use this skill after research synthesis has identified the riskiest dimension takes that any business idea strategy and runs structured assumption extraction mapping experiment design sequence triggers include extract assumptions what are run pressure test could wrong with request surface specific before committing resources guided map workflow"
+  }
+]

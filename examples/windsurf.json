@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "growth-agent": {
+      "command": "npx",
+      "args": ["-y", "growth-agent-mcp"]
+    }
+  }
+}

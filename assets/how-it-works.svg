@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="How growth-agent-mcp works">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#13203a"/>
+    </linearGradient>
+    <linearGradient id="srv" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e3a2e"/>
+      <stop offset="1" stop-color="#0b2a3f"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#475569"/>
+    </marker>
+    <style>
+      .h    { font: 700 22px ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+      .b    { font: 500 16px ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+      .mono { font: 600 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .sub  { font: 400 14px ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+      .cap  { font: 600 13px ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; letter-spacing: 1px; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="440" rx="20" fill="url(#bg2)"/>
+
+  <!-- Column 1: clients -->
+  <text x="60" y="56" class="cap" fill="#64748b">YOUR AI CLIENT</text>
+  <g transform="translate(60,76)">
+    <rect width="280" height="288" rx="16" fill="#0f1a30" stroke="#27364f"/>
+    <g transform="translate(24,28)" fill="#e2e8f0">
+      <rect x="0" y="0" width="232" height="48" rx="10" fill="#1e293b" stroke="#334155"/>
+      <text x="20" y="30" class="b">Claude Code</text>
+      <rect x="0" y="62" width="232" height="48" rx="10" fill="#1e293b" stroke="#334155"/>
+      <text x="20" y="92" class="b">Codex CLI</text>
+      <rect x="0" y="124" width="232" height="48" rx="10" fill="#1e293b" stroke="#334155"/>
+      <text x="20" y="154" class="b">Antigravity</text>
+      <rect x="0" y="186" width="232" height="48" rx="10" fill="#1e293b" stroke="#334155"/>
+      <text x="20" y="216" class="b">Cursor · Claude Desktop · …</text>
+    </g>
+  </g>
+
+  <!-- arrow 1 -->
+  <line x1="348" y1="220" x2="436" y2="220" stroke="#475569" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="392" y="206" text-anchor="middle" class="sub" fill="#64748b">MCP</text>
+
+  <!-- Column 2: server -->
+  <text x="452" y="56" class="cap" fill="#34d399">GROWTH-AGENT-MCP</text>
+  <g transform="translate(452,76)">
+    <rect width="296" height="288" rx="16" fill="url(#srv)" stroke="#2c5a4d"/>
+    <text x="24" y="44" class="h" fill="#f8fafc">The server</text>
+    <text x="24" y="74" class="sub" fill="#9fb6c9">stdio (local) or Streamable HTTP</text>
+    <g transform="translate(24,96)">
+      <rect width="248" height="74" rx="10" fill="#0b2a22" stroke="#1f6b53"/>
+      <text x="16" y="28" class="mono" fill="#6ee7b7">5 calculators</text>
+      <text x="16" y="52" class="sub" fill="#9fb6c9">unit economics · ASO · A/B · DAU</text>
+    </g>
+    <g transform="translate(24,182)">
+      <rect width="248" height="74" rx="10" fill="#0b2536" stroke="#1f567b"/>
+      <text x="16" y="28" class="mono" fill="#7dd3fc">157 playbooks</text>
+      <text x="16" y="52" class="sub" fill="#9fb6c9">served on demand by query / id</text>
+    </g>
+  </g>
+
+  <!-- arrow 2 -->
+  <line x1="756" y1="220" x2="844" y2="220" stroke="#475569" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="800" y="206" text-anchor="middle" class="sub" fill="#64748b">serves</text>
+
+  <!-- Column 3: corpus -->
+  <text x="860" y="56" class="cap" fill="#7dd3fc">EXPERT CORPUS</text>
+  <g transform="translate(860,76)">
+    <rect width="280" height="288" rx="16" fill="#0f1a30" stroke="#27364f"/>
+    <g transform="translate(24,28)" fill="#cbd5e1">
+      <text x="0" y="22" class="b">▸ growth-marketing (92)</text>
+      <text x="0" y="56" class="sub" fill="#94a3b8">ASO · SEO · CRO · copy · email</text>
+      <text x="0" y="96" class="b">▸ ads (55)</text>
+      <text x="0" y="130" class="sub" fill="#94a3b8">Google · Meta · TikTok · LinkedIn</text>
+      <text x="0" y="170" class="b">▸ pmf (10)</text>
+      <text x="0" y="204" class="sub" fill="#94a3b8">hypotheses · research · validation</text>
+      <line x1="0" y1="222" x2="232" y2="222" stroke="#27364f"/>
+      <text x="0" y="250" class="sub" fill="#64748b">Your model reasons · the server supplies the expertise</text>
+    </g>
+  </g>
+</svg>
