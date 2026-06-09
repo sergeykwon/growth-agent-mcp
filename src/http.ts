@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Remote HTTP entry point — exposes the same growth-agent server over the MCP
+ * Remote HTTP entry point — exposes the same growth-marketing server over the MCP
  * Streamable HTTP transport so it can be added as a Claude **custom connector**
  * (claude.ai / Claude Desktop / Claude Code) or used by any remote MCP client.
  *
@@ -9,7 +9,7 @@
  * Fly, a VPS, etc.).
  *
  *   PORT                 listen port (default 3000)
- *   GROWTH_AGENT_TOKEN   if set, requires `Authorization: Bearer <token>`
+ *   GROWTH_MARKETING_TOKEN   if set, requires `Authorization: Bearer <token>`
  *
  * Endpoints:
  *   POST /mcp            MCP Streamable HTTP
@@ -21,7 +21,7 @@ import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/
 import { catalogSummary, createGrowthAgentServer } from "./server.js";
 
 const PORT = Number(process.env.PORT ?? 3000);
-const TOKEN = process.env.GROWTH_AGENT_TOKEN?.trim();
+const TOKEN = process.env.GROWTH_MARKETING_TOKEN?.trim();
 
 function setCors(res: ServerResponse): void {
   res.setHeader("Access-Control-Allow-Origin", "*");
@@ -77,12 +77,12 @@ const httpServer = createHttpServer(async (req, res) => {
 
   if (url.pathname === "/" && req.method === "GET") {
     return sendJson(res, 200, {
-      name: "growth-agent-mcp",
+      name: "growth-marketing-mcp",
       transport: "streamable-http",
       endpoint: "/mcp",
       auth: TOKEN ? "bearer-token-required" : "open",
       catalog: catalogSummary(),
-      docs: "https://github.com/growthprophet/growth-agent-mcp",
+      docs: "https://github.com/growthprophet/growth-marketing-mcp",
     });
   }
 
@@ -136,7 +136,7 @@ const httpServer = createHttpServer(async (req, res) => {
 
 httpServer.listen(PORT, () => {
   console.error(
-    `[growth-agent-mcp] streamable-http listening on :${PORT}/mcp — ${catalogSummary()}${
+    `[growth-marketing-mcp] streamable-http listening on :${PORT}/mcp — ${catalogSummary()}${
       TOKEN ? " (bearer auth on)" : ""
     }`,
   );

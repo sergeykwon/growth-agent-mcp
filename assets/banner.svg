@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="growth-agent-mcp — turn any MCP client into a growth marketing agent">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="growth-marketing-mcp — turn any MCP client into a growth marketing agent">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0b1220"/>
@@ -19,7 +19,7 @@
   <rect width="1200" height="320" rx="20" fill="url(#bg)"/>
   <rect x="0" y="0" width="8" height="320" fill="url(#accent)"/>
 
-  <text x="64" y="118" class="title" fill="#f8fafc">growth-agent-mcp</text>
+  <text x="64" y="118" class="title" fill="#f8fafc">growth-marketing-mcp</text>
   <text x="66" y="160" class="tag" fill="#94a3b8">Turn any MCP client into a growth marketing agent.</text>
 
   <!-- tool chips -->

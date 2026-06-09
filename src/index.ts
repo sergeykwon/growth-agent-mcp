@@ -7,10 +7,10 @@ async function main(): Promise<void> {
   const transport = new StdioServerTransport();
   await server.connect(transport);
   // stdio is the protocol channel — keep stderr free for logs.
-  console.error(`[growth-agent-mcp] stdio server ready — ${catalogSummary()}`);
+  console.error(`[growth-marketing-mcp] stdio server ready — ${catalogSummary()}`);
 }
 
 main().catch((err) => {
-  console.error("[growth-agent-mcp] fatal:", err);
+  console.error("[growth-marketing-mcp] fatal:", err);
   process.exit(1);
 });

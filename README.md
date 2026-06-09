@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="growth-agent-mcp — turn any MCP client into a growth marketing agent" width="100%">
+  <img src="assets/banner.svg" alt="growth-marketing-mcp — turn any MCP client into a growth marketing agent" width="100%">
 </p>
 
 <p align="center">
@@ -9,9 +9,9 @@
   <img alt="mcp" src="https://img.shields.io/badge/protocol-MCP-7dd3fc?style=flat-square">
 </p>
 
-# growth-agent-mcp
+# growth-marketing-mcp
 
-Turn any MCP-compatible AI assistant into a **growth marketing agent** — Claude Code, Codex, Antigravity, Cursor, Claude Desktop, Windsurf, Cline, and more.
+Turn any MCP-compatible AI assistant into a **growth marketing** & **user growth** agent — Claude Code, Codex, Antigravity, Cursor, Claude Desktop, Windsurf, Cline, and more.
 
 This server bundles **Growth Prophet's proprietary growth playbooks** (157 across ASO, SEO, CRO, paid ads, content, PMF, retention, pricing, and sales) and serves them to your model on demand, alongside deterministic growth calculators. Your own model does the reasoning; this server supplies the expert playbooks and the math.
 
@@ -25,8 +25,8 @@ Pick your client — all four use the same `npx` command, no install step.
 
 | Client | One-liner |
 |--------|-----------|
-| **Claude Code** | `claude mcp add growth-agent -- npx -y growth-agent-mcp` |
-| **Codex CLI** | `codex mcp add growth-agent -- npx -y growth-agent-mcp` |
+| **Claude Code** | `claude mcp add growth-marketing -- npx -y growth-marketing-mcp` |
+| **Codex CLI** | `codex mcp add growth-marketing -- npx -y growth-marketing-mcp` |
 | **Antigravity** | paste the [JSON](#antigravity) into `mcp_config.json` |
 | **Cursor** | paste the [JSON](#cursor) into `mcp.json` |
 
@@ -91,7 +91,7 @@ The agent then loads the full playbook by `id` and applies it to your situation.
 ## How it works
 
 <p align="center">
-  <img src="assets/how-it-works.svg" alt="Your AI client talks to growth-agent-mcp over MCP; the server serves 157 playbooks and 5 calculators" width="100%">
+  <img src="assets/how-it-works.svg" alt="Your AI client talks to growth-marketing-mcp over MCP; the server serves 157 playbooks and 5 calculators" width="100%">
 </p>
 
 A typical agent loop for *"help me grow my app"*:
@@ -145,7 +145,7 @@ Prompts appear as slash commands in clients that support MCP prompts (Claude Cod
 ### Claude Code
 
 ```bash
-claude mcp add growth-agent -- npx -y growth-agent-mcp
+claude mcp add growth-marketing -- npx -y growth-marketing-mcp
 ```
 
 Run `/mcp` to confirm it's connected. See [`examples/claude-code.md`](examples/claude-code.md) for example prompts.
@@ -153,15 +153,15 @@ Run `/mcp` to confirm it's connected. See [`examples/claude-code.md`](examples/c
 ### Codex CLI
 
 ```bash
-codex mcp add growth-agent -- npx -y growth-agent-mcp
+codex mcp add growth-marketing -- npx -y growth-marketing-mcp
 ```
 
 Or add it to `~/.codex/config.toml` directly ([`examples/codex.toml`](examples/codex.toml)):
 
 ```toml
-[mcp_servers.growth-agent]
+[mcp_servers.growth-marketing]
 command = "npx"
-args = ["-y", "growth-agent-mcp"]
+args = ["-y", "growth-marketing-mcp"]
 ```
 
 Start a session and run `/mcp` to verify.
@@ -173,9 +173,9 @@ In the Agent panel, open **… (Additional Options) → MCP Servers → Manage M
 ```json
 {
   "mcpServers": {
-    "growth-agent": {
+    "growth-marketing": {
       "command": "npx",
-      "args": ["-y", "growth-agent-mcp"]
+      "args": ["-y", "growth-marketing-mcp"]
     }
   }
 }
@@ -190,9 +190,9 @@ Add to `~/.cursor/mcp.json` (global) or `.cursor/mcp.json` (per-project) ([`exam
 ```json
 {
   "mcpServers": {
-    "growth-agent": {
+    "growth-marketing": {
       "command": "npx",
-      "args": ["-y", "growth-agent-mcp"]
+      "args": ["-y", "growth-marketing-mcp"]
     }
   }
 }
@@ -220,15 +220,15 @@ The same server runs over the MCP **Streamable HTTP** transport, so you can host
 npm run build
 npm run start:http          # listens on :3000, POST /mcp
 # optional: require a token
-GROWTH_AGENT_TOKEN=secret PORT=8080 npm run start:http
+GROWTH_MARKETING_TOKEN=secret PORT=8080 npm run start:http
 ```
 
 Or with Docker (deploys cleanly to Railway, Render, Fly, Cloud Run, a VPS, …):
 
 ```bash
-docker build -t growth-agent-mcp .
-docker run -p 3000:3000 growth-agent-mcp
-# with auth: docker run -e GROWTH_AGENT_TOKEN=secret -p 3000:3000 growth-agent-mcp
+docker build -t growth-marketing-mcp .
+docker run -p 3000:3000 growth-marketing-mcp
+# with auth: docker run -e GROWTH_MARKETING_TOKEN=secret -p 3000:3000 growth-marketing-mcp
 ```
 
 Endpoints: `POST /mcp` (the MCP endpoint), `GET /health`, `GET /` (info).
@@ -236,10 +236,10 @@ Endpoints: `POST /mcp` (the MCP endpoint), `GET /health`, `GET /` (info).
 ### Add it as a connector
 
 - **claude.ai** (web/desktop): Settings → Connectors → **Add custom connector** → paste your `https://your-host/mcp` URL.
-- **Claude Code**: `claude mcp add --transport http growth-agent https://your-host/mcp`
+- **Claude Code**: `claude mcp add --transport http growth-marketing https://your-host/mcp`
 - **Antigravity** (remote): use `"serverUrl": "https://your-host/mcp"` instead of `command`/`args`.
 
-If you set `GROWTH_AGENT_TOKEN`, supply it as a `Bearer` token in the client's auth/header configuration. The server is stateless and safe to scale horizontally. It stores no user data — it only serves playbooks and runs math.
+If you set `GROWTH_MARKETING_TOKEN`, supply it as a `Bearer` token in the client's auth/header configuration. The server is stateless and safe to scale horizontally. It stores no user data — it only serves playbooks and runs math.
 
 ---
 
@@ -257,9 +257,9 @@ Point a client at the local build:
 ```json
 {
   "mcpServers": {
-    "growth-agent": {
+    "growth-marketing": {
       "command": "node",
-      "args": ["/absolute/path/to/growth-agent-mcp/dist/index.js"]
+      "args": ["/absolute/path/to/growth-marketing-mcp/dist/index.js"]
     }
   }
 }

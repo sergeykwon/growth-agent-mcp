@@ -1,4 +1,4 @@
-# Multi-stage build for the remote (Streamable HTTP) growth-agent server.
+# Multi-stage build for the remote (Streamable HTTP) growth-marketing server.
 # Deploy to any container host (Railway, Render, Fly, Cloud Run, a VPS) and add
 # the resulting https URL as a Claude custom connector.
 
@@ -18,5 +18,5 @@ RUN npm ci --omit=dev && npm cache clean --force
 COPY --from=build /app/dist ./dist
 COPY --from=build /app/data ./data
 EXPOSE 3000
-# PORT and GROWTH_AGENT_TOKEN are read from the environment.
+# PORT and GROWTH_MARKETING_TOKEN are read from the environment.
 CMD ["node", "dist/http.js"]

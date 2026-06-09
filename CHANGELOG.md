@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to `growth-agent-mcp` are documented here.
+All notable changes to `growth-marketing-mcp` are documented here.
 
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
@@ -16,7 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **4 prompts**: `growth-audit`, `competitor-analysis`, `pmf-validation`,
   `growth-loop-design`.
 - **Two transports**:
-  - stdio (`growth-agent-mcp`) for local clients (Claude Desktop, Claude Code, Cursor, Windsurf).
-  - Streamable HTTP (`growth-agent-mcp-http`) for remote use as a Claude custom connector,
+  - stdio (`growth-marketing-mcp`) for local clients (Claude Desktop, Claude Code, Cursor, Windsurf).
+  - Streamable HTTP (`growth-marketing-mcp-http`) for remote use as a Claude custom connector,
     with optional bearer-token auth and a `Dockerfile` for one-command deploy.
 - `npm run sync` regenerates the playbook corpus from the source skills.

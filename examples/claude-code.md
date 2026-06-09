@@ -1,17 +1,17 @@
-# Using growth-agent-mcp with Claude Code
+# Using growth-marketing-mcp with Claude Code
 
 ## Add the server
 
 Published (after `npm publish`):
 
 ```bash
-claude mcp add growth-agent -- npx -y growth-agent-mcp
+claude mcp add growth-marketing -- npx -y growth-marketing-mcp
 ```
 
 Local build:
 
 ```bash
-claude mcp add growth-agent -- node /absolute/path/to/growth-agent-mcp/dist/index.js
+claude mcp add growth-marketing -- node /absolute/path/to/growth-marketing-mcp/dist/index.js
 ```
 
 Confirm it connected:

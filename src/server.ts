@@ -29,7 +29,7 @@ import { listGroups } from "./playbooks/catalog.js";
 import { findPrompt, PROMPTS } from "./prompts/index.js";
 
 const SERVER_INFO = {
-  name: "growth-agent-mcp",
+  name: "growth-marketing-mcp",
   version: "0.1.0",
 } as const;
 

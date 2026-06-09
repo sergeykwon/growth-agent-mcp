@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="How growth-agent-mcp works">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="How growth-marketing-mcp works">
   <defs>
     <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0b1220"/>
@@ -43,7 +43,7 @@
   <text x="392" y="206" text-anchor="middle" class="sub" fill="#64748b">MCP</text>
 
   <!-- Column 2: server -->
-  <text x="452" y="56" class="cap" fill="#34d399">GROWTH-AGENT-MCP</text>
+  <text x="452" y="56" class="cap" fill="#34d399">GROWTH-MARKETING-MCP</text>
   <g transform="translate(452,76)">
     <rect width="296" height="288" rx="16" fill="url(#srv)" stroke="#2c5a4d"/>
     <text x="24" y="44" class="h" fill="#f8fafc">The server</text>

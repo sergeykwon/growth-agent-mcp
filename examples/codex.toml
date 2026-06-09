@@ -1,6 +1,6 @@
 # OpenAI Codex CLI — add to ~/.codex/config.toml
-# Or run: codex mcp add growth-agent -- npx -y growth-agent-mcp
+# Or run: codex mcp add growth-marketing -- npx -y growth-marketing-mcp
 
-[mcp_servers.growth-agent]
+[mcp_servers.growth-marketing]
 command = "npx"
-args = ["-y", "growth-agent-mcp"]
+args = ["-y", "growth-marketing-mcp"]

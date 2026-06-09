@@ -110,7 +110,7 @@ function renderGroupsOverview(): string {
   const total = groups.reduce((s, g) => s + g.count, 0);
   const rows = groups.map((g) => `- **${g.group}** — ${g.count} playbooks`).join("\n");
   return (
-    `# Growth Agent — Playbook Catalog\n\n` +
+    `# Growth Marketing — Playbook Catalog\n\n` +
     `${total} expert growth playbooks across ${groups.length} discipline groups:\n\n` +
     `${rows}\n\n` +
     `Search with \`growth_playbook({ query: "..." })\` (optionally \`group\`), then fetch the full text with \`growth_playbook({ id: "..." })\`.\n\n` +
